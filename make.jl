@@ -13,3 +13,7 @@ makedocs(
         ]
     ]
     )
+
+deploydocs(
+    repo = "github.com/lpawela/numericalshadow.org.git"
+)
