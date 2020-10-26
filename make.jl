@@ -6,7 +6,7 @@ nr_examples = [
     "3x3 matrices"=>"numerical-range/examples/3x3.md",
     "4x4 matrices"=>"numerical-range/examples/4x4.md",
     "Random matrices"=>"numerical-range/examples/ginibre.md",
-    "Doubly stochastic matrices"=>"numerical-range/examples/double-stochastic.md",
+    "Doubly stochastic matrices"=>"numerical-range/examples/doubly-stochastic.md",
 ]
 
 nr = [
@@ -27,7 +27,7 @@ makedocs(
     sitename="numericalshadow.org",
     pages=[
         "Start"=>"index.md",
-        "Numerical range"=>numerical_range
+        "Numerical range"=>nr
     ]
     )
 
