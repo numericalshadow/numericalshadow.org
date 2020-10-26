@@ -6,9 +6,9 @@ makedocs(
     pages=[
         "Start"=>"index.md",
         "Numerical range"=>[
-            "Properites"=>"nr/properties.md"
+            "Properites"=>"numerical-range/properties.md"
             "Examples"=>[
-                "2x2 matrices"=>"nr/examples/2x2matrices.md"
+                "2x2 matrices"=>"numerical-range/examples/2x2.md"
             ]
         ]
     ]
