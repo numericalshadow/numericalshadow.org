@@ -82,8 +82,13 @@ ns = [
     "Animations"=>ns_animations,
 ]
 
+format = Documenter.HTML(
+    prettyurls = !("local" in ARGS)
+)
+
 makedocs(
     authors="",
+    format=format,
     sitename="numericalshadow.org",
     pages=[
         "Start"=>"index.md",
