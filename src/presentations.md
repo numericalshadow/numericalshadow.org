@@ -1,13 +1,10 @@
-Presentations
-=============
+# Presentations
 
-Numerical range
----------------
+## Numerical range
 
-\- 18 August 2015, presented by Raymond Nung-Sing Sze
+* 18 August 2015, presented by Raymond Nung-Sing Sze
 
-![The \$(p,k)\$ numerical range and quantum error
-correction](/wiki/talk_-_wqmnr.pdf){.align-center}
+[The ``(p,k)`` numerical range and quantum error
+correction](assets/pdf/talk-wqmnr.pdf)
 
-Numerical shadow
-----------------
+## Numerical shadow

@@ -1,5 +1,4 @@
-Cookie policy
-=============
+# Cookie policy
 
 A cookie is a string of information that a website stores on a visitor's
 computer, and that the visitor's browser provides to the website each
