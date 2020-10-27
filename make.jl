@@ -45,12 +45,50 @@ nr = [
     ],
 ]
 
+ns_examples = [
+    "numerical-shadow/examples.md",
+    "2x2 matrices"=>"numerical-shadow/examples/2x2.md",
+    "3x3 matrices"=>"numerical-shadow/examples/3x3.md",
+    "4x4 matrices"=>"numerical-shadow/examples/4x4.md",
+    "5x5 matrices"=>"numerical-shadow/examples/5x5.md",
+    "6x6 matrices"=>"numerical-shadow/examples/6x6.md",
+    "8x8 matrices"=>"numerical-shadow/examples/8x8.md",
+    "9x9 matrices"=>"numerical-shadow/examples/9x9.md",
+]
+
+ns_generalizations = [
+    "numerical-shadow/generalizations.md",
+    "Restricted numerical shadow"=>[
+        "numerical-shadow/generalizations/restricted-numerical-shadow.md",
+        "Real numerical shadow"=>"numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow.md",
+        "Product numerical shadow"=>"numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow.md",
+        "Maximally entangled numerical shadow"=>"numerical-shadow/generalizations/restricted-numerical-shadow/entangled-numerical-shadow.md",
+        "GHZ numerical shadow"=>"numerical-shadow/generalizations/restricted-numerical-shadow/ghz-numerical-shadow.md",
+        "W numerical shadow"=>"numerical-shadow/generalizations/restricted-numerical-shadow/w-numerical-shadow.md",
+        "``SU(2)`` coherent states"=>"numerical-shadow/generalizations/restricted-numerical-shadow/coherent-numerical-shadow.md",
+    ]
+]
+
+ns_animations = [
+    "A matrix of dimension 2"=>"numerical-shadow/animations/2x2.md",
+    "A matrix of dimension 3"=>"numerical-shadow/animations/3x3.md",
+    "A matrix of dimension 4"=>"numerical-shadow/animations/4x4.md",    
+]
+
+ns = [
+    "Properties"=>"numerical-shadow/properties.md",
+    "Examples"=>ns_examples,
+    "Generalizations"=>ns_generalizations,
+    "Animations"=>ns_animations,
+]
+
 makedocs(
     authors="",
     sitename="numericalshadow.org",
     pages=[
         "Start"=>"index.md",
-        "Numerical range"=>nr
+        "Numerical range"=>nr,
+        "Numerical shadow"=>ns,
     ]
     )
 
