@@ -89,6 +89,21 @@ makedocs(
         "Start"=>"index.md",
         "Numerical range"=>nr,
         "Numerical shadow"=>ns,
+        "Software"=>[
+            "Numerical range"=>"software/numerical-range.md",
+            "Random matrices"=>"software/random-matrices.md"
+        ],
+        "Literature"=>"literature.md",
+        "Presentations"=>"presentations.md",
+        "Auxiliary definitions"=>[
+            "GHZ states"=>"aux-definitions/ghz-state.md",
+            "W states"=>"aux-definitions/w-state.md",
+            "Dirac notation"=>"aux-definitions/dirac-notation.md",
+        ],
+        "External links"=>"links.md",
+        "Acknowledgements"=>"acknowledgements.md",
+        "Contact"=>"contact.md",
+        "Cookie policy"=>"cookies.md"
     ]
     )
 
