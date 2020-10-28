@@ -1,4 +1,4 @@
-using Documenter
+using Documenter, DocumenterCitations
 
 nr_examples = [
     "numerical-range/examples.md",
@@ -35,6 +35,7 @@ nr_generalizations = [
 ]
 
 nr = [
+    "Introduction"=>"numerical-range.md",
     "Properites"=>"numerical-range/properties.md",
     "Examples"=>nr_examples,
     "Generalizations"=>nr_generalizations,
@@ -76,6 +77,7 @@ ns_animations = [
 ]
 
 ns = [
+    "Introduction"=>"numerical-shadow.md",
     "Properties"=>"numerical-shadow/properties.md",
     "Examples"=>ns_examples,
     "Generalizations"=>ns_generalizations,
@@ -86,7 +88,10 @@ format = Documenter.HTML(
     prettyurls = !("local" in ARGS)
 )
 
+bib = CitationBibliography("references.bib")
+
 makedocs(
+    bib,
     authors="",
     format=format,
     sitename="numericalshadow.org",
