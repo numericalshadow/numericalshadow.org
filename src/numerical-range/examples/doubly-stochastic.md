@@ -72,5 +72,4 @@ graph include a complex conjugate pair.
   Fig. 2 Numerical range \$A\$ with two flat portions and an elliptical arc on the boundary, and the contained vertical ellipse. The eigenvalues of \$A\$ are indicated by the points.
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-`<center>`{=html} This section is created based on \[(
-:camenga2013numerical )\] in which we can find more examples also.
+`<center>`{=html} This section is created based on [camenga2013numerical](@cite) in which we can find more examples also.

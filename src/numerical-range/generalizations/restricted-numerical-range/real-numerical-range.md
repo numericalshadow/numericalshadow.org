@@ -16,5 +16,4 @@ Conditions for the generalized numerical range to be real
 
 The classical numerical range satisfies \$\$W(CU\^\\dagger AU) \\subset
 \\mathbb{R}\$\$ for all unitary \$U\$ if and only if at least one of
-\$C\$ and \$A\$ is scalar and their product is hermitian \[(
-:marcus1985conditions )\].
+\$C\$ and \$A\$ is scalar and their product is hermitian [marcus1985conditions](@cite).

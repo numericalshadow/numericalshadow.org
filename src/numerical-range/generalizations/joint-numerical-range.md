@@ -9,13 +9,13 @@ defined as \$\$ L(A_1,\\ldots,A_k) = \\left\\{ \\left( \\Tr \\rho
 A_1,\\ldots, \\Tr \\rho A_k \\right): \\rho \\in \\Omega_d \\right\\}.
 \$\$ Due to taking all mixed states the joint numerical range is a
 convex body in a \$k\$-dimensional space. More information about
-convexity of joint numerical range we can find in \[( :li2020joint )\].
+convexity of joint numerical range we can find in [li2020joint](@cite).
 
 Kippenhahn Theorem\'s for joint numerical range
 -----------------------------------------------
 
 An algebraic curve has been associated with the numerical range and has
-been studied from the 1930s on \[( :plaumann2019kippenhahn )\]. Let
+been studied from the 1930s on [plaumann2019kippenhahn](@cite). Let
 \$\\1\$ denote the \$d\\times d\$ identity matrix, \\\[ p(x)=\\det( x_0
 \\1 + x_1 A_1 + \\cdots + x_n A_n ), \\\] and consider the complex
 projective hypersurface \\\[ \\mathcal{V}(p)=\\{x\\in\\mathbb{P}\^n
@@ -46,7 +46,7 @@ closure of \$T_1\\cup\\cdots\\cup T_r\$, in other words, \$W =
 
 ##### Two qutrit matrices
 
-This classification comes from \[( :keeler1997numerical )\]. Consider
+This classification comes from [keeler1997numerical](@cite). Consider
 two Hermitian matrices \$A_1\$ and \$A_2\$ of size \$3 \\times 3\$. Then
 there are four possible shapes of the JNRs
 
@@ -72,7 +72,7 @@ there are four possible shapes of the JNRs
 
 ##### Three qutrit matrices
 
-This classification is taken from \[( :szymanski2017classification )\]
+This classification is taken from [szymanski2017classification](@cite)
 (see for details). Such JNRs must obey the following rules
 
 1.  In this case we may restrict ourselves to only pure states.
@@ -93,7 +93,7 @@ all configurations of Figure 2. We are unaware of earli
 
 All configurations permitted by these rules are realized. Let us denote
 by \$e\$ the number of ellipses in the boundary and by \$s\$ the number
-of segments. There exists object with \[( :xie2019observing )\]:
+of segments. There exists object with [xie2019observing](@cite):
 
 -   no flat parts in boundary at all \$e=0\$, \$s=0\$,
     ![](/numerical-range/generalizations/img_5903.png){.align-center
@@ -132,6 +132,4 @@ following configurations are possible:
 
 ### Application
 
-An example application of numerical range can be found in \[(
-:szymanski2019geometric )\], \[( :czartowskiseparability )\], \[(
-:plaumann2019kippenhahn )\].
+An example application of numerical range can be found in [szymanski2019geometric](@cite), [czartowskiseparability](@cite), [plaumann2019kippenhahn](@cite).

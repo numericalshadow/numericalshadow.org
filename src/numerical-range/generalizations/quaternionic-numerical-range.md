@@ -130,7 +130,7 @@ of quaternionic numerical range.
 ### Theorem
 
 Let \$A \\in M\_{n}(\\mathbb{H})\$. Then the following are equivalent
-\[( :kumar2019note )\]:
+[kumar2019note](@cite):
 
 \- \$W\_{\\mathbb{H}}(A)\$ is convex.
 
@@ -147,7 +147,7 @@ AX\\rangle}\_{\\mathbb{H}}\|. \\end{equation\*}
 
 Let \$A=D+N \\in M_n(\\mathbb{H})\$, with \$D\$ a diagonal matrix with
 real entries, \$N\$ nilpotent and cycle-free matrix. Then,
-\$W\_{\\mathbb{H}}(A)\$ is convex. \[( :carvalho2019convexity )\]
+\$W\_{\\mathbb{H}}(A)\$ is convex. [carvalho2019convexity](@cite)
 
 More theorems regarding the convexity of quaternionic numerical range we
-can see in \[( :carvalho2019star )\].
+can see in [carvalho2019star](@cite).

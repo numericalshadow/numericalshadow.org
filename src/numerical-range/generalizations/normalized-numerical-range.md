@@ -14,9 +14,8 @@ modifications and generalization of the numerical range have been
 considered in the literature. Our paper is concerned with the so called
 normalized numerical range. Defined as \\\[ F_N(A) :=
 \\left\\{\\frac{x\^\*Ax}{\\\|x\\\|\\\|Ax\\\|} \\colon x \\in
-\\mathbb{C}\^n, Ax \\ne 0 \\right\\},\\\] it was introduced in \[(
-:auzinger2003sectorial )\], and then further investigated in for example
-\[( :gevorgyan2009normalized )\].
+\\mathbb{C}\^n, Ax \\ne 0 \\right\\},\\\] it was introduced in [auzinger2003sectorial](@cite), and then further investigated in for example
+[gevorgyan2009normalized](@cite).
 
 Properties
 ----------
@@ -38,8 +37,7 @@ unitary \$U\\in M_n(\\mathbb{C})\$.
 
 \* If \$A\$ is invertible, then \$F_N(A)\$ is closed.
 
-The following theorems and examples are taken from \[(
-:lins2018normalized )\].
+The following theorems and examples are taken from [lins2018normalized](@cite).
 
 Theorem 1
 ---------

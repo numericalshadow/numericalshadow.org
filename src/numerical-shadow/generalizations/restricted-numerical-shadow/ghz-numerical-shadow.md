@@ -17,7 +17,7 @@ Example
 -------
 
 GHZ entangled numerical shadow of a unitary matrix
-\[(:puchala2012restricted)\] \$\$ U=\\text{diag}\\left( 1,e\^{\\frac{2
+[puchala2012restricted](@cite) \$\$ U=\\text{diag}\\left( 1,e\^{\\frac{2
 \\ii \\pi }{3}}, e\^{\\frac{2 \\ii \\pi }{3}}, e\^{-\\frac{2 \\ii \\pi
 }{3}}, e\^{\\frac{2 \\ii \\pi }{3}}, e\^{-\\frac{2 \\ii \\pi }{3}},
 e\^{-\\frac{2 \\ii \\pi }{3}}, 1 \\right) \$\$

@@ -2,12 +2,11 @@ Essential numerical range
 =========================
 
 The essential numerical range \$W_e(T)\$ was introduced by Stampfli and
-Williams in \[( :stampfli1968growth )\] for a bounded linear operator
+Williams in [stampfli1968growth](@cite) for a bounded linear operator
 \$T\$ in a Hilbert space \$H\$ as the closure of the numerical range of
 the image of \$T\$ in the Calkin algebra. Various equivalent
-characterizations were established, for example, in \[(
-:fillmore1972essential )\], along with applicatations, for example, in
-\[( :bogli2019essential )\].
+characterizations were established, for example, in [fillmore1972essential](@cite), along with applicatations, for example, in
+[bogli2019essential](@cite).
 
 Definition
 ----------
@@ -25,7 +24,7 @@ For any \$z \\in \\mathbb{C}\$ and let \$\$ \\sigma_e(T) = \\{ \\lambda
 \\in \\mathrm{C} : \\exists (x_n)\_{n \\in \\mathbb{N}} \\subset
 \\mathcal{D}(T ) \\,\\,\\, \\text{with} \\,\\,\\, \|\|xn\|\| = 1, (x_n)
 \\rightarrow 0, \|\|(T- \\lambda)x_n \|\| \\rightarrow 0 \\} \$\$ then
-we have \[( :bogli2020essential )\]
+we have [bogli2020essential](@cite)
 
 \- \$W_e(zT) = zW_e(T) \$
 
@@ -61,4 +60,4 @@ strip
 regular analytic boundary curve \$\\partial D\$, \$W(T) \\subseteq
 \\overline{D}\$, \$W_e(T) \\subset D\$ and \$\\overline{W(T)}\$
 intersects \$\\partial D\$ at infinitely many points, then \$W(T) =
-\\overline{D}\$ \[( :lins2020numerical )\].
+\\overline{D}\$ [lins2020numerical](@cite).

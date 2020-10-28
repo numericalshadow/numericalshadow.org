@@ -38,6 +38,6 @@ Numerical range (light gray), separable numerical range (dark gray) and
 product numerical range (black dots) obtained by random sampling of
 family of matrices \$U_d(\\alpha, 0, 0) \\text{diag}(\\ii, −1, −\\ii, 1)
 U_d (\\alpha, 0, 0)\^\\dagger\$ for \$\\alpha = 0, \\pi/8, 3 \\pi /16,
-\\pi /4\$ \[( :gawron2010restricted )\].
+\\pi /4\$ [gawron2010restricted](@cite).
 
 ![](/numerical-range/separable_range.png)

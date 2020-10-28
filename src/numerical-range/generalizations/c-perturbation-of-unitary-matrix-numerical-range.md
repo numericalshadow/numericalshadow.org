@@ -13,7 +13,7 @@ continuous parametric (by parameter \$t\$) curve \$U(t) \\in
 \\mathrm{U}(\\mathbb{C}\^d)\$ for any \$t \\in \[0,1\]\$ with boundary
 conditions \$U(0) := U\$ and \$U(1) := V \$. The most natural and also
 the shortest curve connecting \$U\$ and \$V\$ is geodesic
-\[(:antezana2014optimal)\] given by\\begin{equation} t \\rightarrow U
+[antezana2014optimal](@cite) given by\\begin{equation} t \\rightarrow U
 \\exp\\left(t \\mathrm{Log} \\left(U\^\\dagger V\\right)\\right),
 \\end{equation} where \$\\mathrm{Log}\$ is the matrix function such that
 it changes eigenvalues \$\\lambda \\in \\lambda(U)\$ into
@@ -113,7 +113,7 @@ v_j} \\in S\^{Q}\_{\\lambda_j(Q)}\$;
 \\begin{equation\*} \\sum\_{j=1}\^d \\left\|\\frac{\\partial}{\\partial
 t}\\lambda_j(t)\\right\|=1. \\end{equation\*}
 
-Proof of this therorem you can see in \[( :kukulski2020 )\].
+Proof of this therorem you can see in [kukulski2020](@cite).
 
 Intuitively speaking, this theorem gives us equations which one can use
 to predict behaviour of \$W(UV(t))\$. Observe the postulate \$(6)\$
@@ -185,4 +185,4 @@ We act on two subspaces with probability \$p_1 = 1/3\$ and \$p_2 =
 2/3\$. In this case the eigenvalue \$\\ii\$ is three fold degenerated,
 so it stays in the initial position.
 
-More examples you can find in \[( :kukulski2020 )\].
+More examples you can find in [kukulski2020](@cite).

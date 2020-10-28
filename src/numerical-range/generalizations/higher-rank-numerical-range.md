@@ -11,12 +11,10 @@ compression problems in quantum information theory (See for details
 range](/numerical-range/generalizations/application-of-higher-rank-and-p-k-numerical-range)).
 Since then their theory and applications have been advanced with
 remarkable enthusiasm. Among the many more recent papers concerning the
-\$\\Lambda_k(M)\$, let us mention \[( :choi2007higher )\], \[(
-:woerdeman2008higher )\], \[( :li2009condition )\], \[( :gau2010higher
-)\], \[( :chien2020diameter )\] and \[( :holbrook2015bounds )\].
+\$\\Lambda_k(M)\$, let us mention [choi2007higher](@cite), [woerdeman2008higher](@cite), [li2009condition](@cite), [gau2010higher](@cite), [chien2020diameter](cite) and [holbrook2015bounds](@cite).
 
 Given a matrix \$M\$ of dimension \$d\$ and \$k\\geq1\$, Choi, Kribs,
-and Życzkowski (see \[( :choi2006higher )\], \[( :choi2008geometry )\])
+and Życzkowski (see [choi2006higher](@cite), [choi2008geometry](@cite))
 defined the rank-\$k\$ numerical range of \$M\$ as \\\[
 \\Lambda_k(M)=\\{\\lambda\\in\\mathbb{C}:\\exists P\\in P_k\\mbox{ such
 that }PMP=\\lambda P\\}, \\\] where \$P_k\$ denotes the set of
@@ -34,7 +32,7 @@ can alternatively define as \\begin{equation} \\Lambda_k(M) = \\left\\{
 \* &\*\\end{array}\\right\] \\text{for some unitary } U \\right\\}.
 \\end{equation}
 
-Equivalently \[( :li2008canonical )\],
+Equivalently [li2008canonical](@cite),
 
 \\begin{equation} \\Lambda_k(M) = \\left\\{\\alpha \\in \\mathbb{C}:
 e\^{i \\xi}\\alpha + e\^{-i\\xi} \\bar{\\alpha} \\le \\lambda_k \\left(
@@ -72,10 +70,10 @@ Special cases
 1\. For matrices of a block diagonal form: \\\[ J_n(\\alpha)\\oplus
 \\beta \\1_m, \\\] where \$J_n(\\alpha)\$ is a Jordan matrix with
 eigenvalue \$\\alpha\$, the full characterization of rank-\$k\$
-numerical range was studied in \[( :argerami2019higher )\].
+numerical range was studied in [argerami2019higher](@cite).
 
 2\. For some Toeplitz metrices the higher rank numerical range has an
-elliptical shape. This case is studied in \[( :adam2018elliptical )\].
+elliptical shape. This case is studied in [adam2018elliptical](@cite).
 
 #### Comparison between \$k\$-numerical range and higher-rank numerical range
 

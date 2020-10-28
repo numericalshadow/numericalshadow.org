@@ -1,4 +1,6 @@
 using Documenter, DocumenterCitations
+# using BibInternal
+# Documenter.Utilities.header_level(::BibInternal.Entry) = 1
 
 nr_examples = [
     "numerical-range/examples.md",

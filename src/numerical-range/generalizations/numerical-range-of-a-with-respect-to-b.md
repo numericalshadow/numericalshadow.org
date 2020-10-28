@@ -6,8 +6,7 @@ Definition
 
 Let \$A\$ and \$B\$ be \$N \\times M\$ matrices and let \$\\\| \\cdot
 \\\|\$ be any matrix norm. We define the numerical range of \$A\$ with
-respect to \$B\$, as the compact and convex set \[(
-:chorianopoulos2009definition )\] \\\[ w\_{\\\| \\cdot \\\|}(A; B) =
+respect to \$B\$, as the compact and convex set [chorianopoulos2009definition](@cite) \\\[ w\_{\\\| \\cdot \\\|}(A; B) =
 \\left\\{ \\mu \\in \\mathbb{C}: \\\| A - \\lambda B \\\| \\geq \|\\mu -
 \\lambda\|, \\forall \\lambda \\in \\mathbb{C} \\right\\} =
 \\bigcap\_{\\lambda \\in \\mathbb{C}} \\mathcal{D}(\\lambda,\\\| A -
@@ -65,7 +64,7 @@ Alternative definitions
 
 Assume that \$m \\ge n\$. Let \$A\$ be a \$m\\times n \$ matrix and let
 \$H\$ be \$m\\times n \$ isometry matrix. We present three definitions
-\[( :aretaki2009investigating )\] of numerical ranges for rectangular
+[aretaki2009investigating](@cite) of numerical ranges for rectangular
 matrices. \\begin{equation} \\begin{split} w(A)&=\\{ \\bra{y}A \\ket{x}
 : \\ket{x} \\in \\mathbb{C}\^{n}, \\ket{y} \\in \\mathbb{C}\^{m}, \\Vert
 x \\Vert\_{2} = \\Vert y \\Vert\_{2} = 1 \\},\

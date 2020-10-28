@@ -20,8 +20,7 @@ all } 1\\le i,j\\le r. \\end{equation} This leads to the study [higher
 rank numerical
 range](/numerical-range/generalizations/higher-rank-numerical-range).
 
-We can also naturally extend above error correction scheme \[(
-:choi2009multiplicative )\]. Now we consider that for a given quantum
+We can also naturally extend above error correction scheme [choi2009multiplicative](@cite). Now we consider that for a given quantum
 channel \$\\Psi\$ we would like to find a recovery channel \$R\$ such
 that for each \$B \\in M_k\$ \\begin{equation} R \\circ \\Psi \\left(
 \\left( \\1_p \\otimes B \\right) \\oplus \\mathbf{0}\_{n-pk} \\right) =
@@ -43,7 +42,7 @@ Application in Hybrid Quantum Error Correction
 
 The non-emptiness of \$(p,k)\$ numerical range plays crucial role in
 hybrid (classical and quantum) error correction code schemes
-\[(:cao2020higher)\]. In this case we study \$m-\$joint
+[cao2020higher](@cite). In this case we study \$m-\$joint
 \$(p,k)-\$diagonal numerical range \\begin{equation}
 
           \widetilde{\Lambda}_{p,k}(A_1,\ldots,A_m) := \left\{ (D_1,\ldots,D_m) \subset D_p: \,  
@@ -55,7 +54,7 @@ hybrid (classical and quantum) error correction code schemes
 
 The important property of \$\\widetilde{\\Lambda}\_{p,k}\$ which is
 studied is its non-emptiness. Here we present a sufficient condition in
-the case, when \$A_i=A_i\^\\dagger\$ \[(:cao2020higher)\].
+the case, when \$A_i=A_i\^\\dagger\$ [cao2020higher](@cite).
 
 #### Theorem
 
@@ -65,7 +64,7 @@ that \$\$n\\geq(m + 1)[^1].\$\$ Then
 
 This theorem provides simply check for given quantum channel whenever
 there exists a hybrid error correcting code (for more details see
-\[(:cao2020higher)\]).
+[cao2020higher](@cite)).
 
 #### Theorem
 

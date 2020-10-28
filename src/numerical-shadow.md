@@ -22,10 +22,10 @@ state is equal to ``z``.
 
 Other names for numerical shadow found in literature:
 
--   numerical measure of a complex matrix \[( :gallay2010the )\]
--   microcanonical distribution \[( :brody1998the )\], \[(
-    :brody2005microcanonical )\], \[( :brody2007on )\], \[(
-    :brody2007quantum )\]
+* numerical measure of a complex matrix [gallay2010the](@cite)
+* microcanonical distribution [brody1998the](@cite),
+  [brody2005microcanonical](@cite), [brody2007on](@cite),
+  [brody2007quantum](@cite)
 
 ## References
 

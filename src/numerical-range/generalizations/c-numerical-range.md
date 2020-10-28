@@ -60,7 +60,7 @@ We can generalize the \$C\$-numerical range \$W_C(A)\$ to Schatten-class
 operators i.e. to \$C\\in\\mathcal B\^p(\\mathcal H)\$ and
 \$A\\in\\mathcal B\^q(\\mathcal H)\$ with condition \$1/p + 1/q = 1\$,
 and show that its closure is always star-shaped with respect to the
-origin \[( :zhang2019c )\].
+origin [zhang2019c](@cite).
 
 Let \$\\mathcal{X}, \\mathcal{Y}\$ denote an arbitrary
 infinite-dimensional separable complex Hilbert space. Moreover,
@@ -103,4 +103,4 @@ the \\emph{\$C\$-numerical range} of \$T\$ to be \\begin{equation} W_C
 B(\\mathcal H)\\text{ unitary}\\rbrace\\,. \\end{equation}
 
 The properties of \$C\$-numerical range in infinite-dimensional vector
-space for Schatten-class operator we can find in \[( :dirr2018c )\].
+space for Schatten-class operator we can find in [dirr2018c](@cite).

@@ -3,7 +3,7 @@ Higher rank numerical range of rectangular matrices
 
 The notion of higher rank numerical ranges of rectangular matrices were
 first introduced by Mohsen Zahraei and Gholamreza Aghamollaei in their
-work \[( :zahraei2015higher )\]. They showed that, the proposed
+work [zahraei2015higher](@cite). They showed that, the proposed
 definition is a generalization of well-known [higher numerical range of
 square
 matrices](/numerical-range/generalizations/higher-rank-numerical-range)
@@ -53,8 +53,7 @@ hull of eigenvalues, so it would be delightfull if it was true for
 introduced numerical range \$\\Lambda\_{k,\\\|\\cdot \\\|}(A;B)\$.
 Spectrum of rectangular matrix \$A\$ with respect to \$B\$ is defined as
 \\\[\\sigma(A;B)=\\{ \\mu \\in \\mathbb{C}: \\dim \\ker (A-\\mu B) \\geq
-1\\}. \\\] For more details of this set see \[(
-:chorianopoulos2009definition )\]. The proposed generalization of
+1\\}. \\\] For more details of this set see [chorianopoulos2009definition](@cite). The proposed generalization of
 \$\\sigma(A;B)\$ is \$k-\$spectrum of \$A\$ with respect to \$B\$
 defined and denoted by \\\[ \\sigma_k(A;B)=\\{\\mu \\in \\mathbb{C}:
 \\dim \\ker (X\^\\dagger (A - \\mu B) Y) \\geq k, \\forall (X,Y) \\in

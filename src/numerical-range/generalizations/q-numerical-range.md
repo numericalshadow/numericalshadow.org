@@ -14,7 +14,7 @@ Properties
 ----------
 
 Properties of \$W_q(A)\$ of a matrix \$A\$ of dimension \$d \\times d\$
-\[( :li1998q )\], \[( :chien2006q )\],\[( :chien2002davis )\]:
+[li1998q](@cite), [chien2006q](@cite),[chien2002davis](@cite):
 
      - Note that in the case $q=1$ we get back the [[:numerical-range|standard numerical range]];
      - $W_q(A)$ is a convex and bounded set (Tsing theorem) [( :tsing1984constrained )];
@@ -33,4 +33,4 @@ The numerical aproximation of \$W\_{13/14}(A)\$, where \$\$ A =
 
 ![](/numerical-range/qnr1.png)
 
-This example can be found in \[( :koide2008q )\].
+This example can be found in [koide2008q](@cite).

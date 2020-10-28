@@ -11,13 +11,12 @@ consideration some problems in quantum information theory (See for
 details [Application of \$(p,k)\$ numerical
 range](/numerical-range/generalizations/application-of-higher-rank-and-p-k-numerical-range)).
 The other useful application the \$(p,k)\$ numerical range we can see in
-\[( :cao2020higher )\]. In order to introduce the definition of
+[cao2020higher](@cite). In order to introduce the definition of
 \$(p,k)\$ numerical range, let \$M_n\$ will be the set of all matrices
 of dimension \$n\$ and by
 \$\\mathrm{U}\\left(\\mathbb{C}\^{k},\\mathbb{C}\^{l}\\right)\$ it will
 be denoted the set of all isometries of dimension \$k \\times l\$. The
-\$(p,k)\$ numerical range of the matrix \$A \\in M_n\$ is defined as \[(
-:choi2009multiplicative )\] \\begin{equation}
+\$(p,k)\$ numerical range of the matrix \$A \\in M_n\$ is defined as [choi2009multiplicative](@cite) \\begin{equation}
 
           \Lambda_{p,k}(A) := \left\{ B \in M_p: \,  
       U^\dagger A U = B \otimes \mathbf{1}_k \text{ for some } U \in 
@@ -104,7 +103,7 @@ In the case when \$n \\geq (p+1)k\$ the convexity of the set
 \$\$\\lambda_k(A)=\\lambda\_{pk}(A) \\, \\text{ and } \\,
 \\lambda\_{n-pk+1}(A)=\\lambda\_{n-k+1}(A).\$\$
 
-Proofs of above theorem we can find in \[( :li2012generalized )\].
+Proofs of above theorem we can find in [li2012generalized](@cite).
 
 Related open problems
 ---------------------
