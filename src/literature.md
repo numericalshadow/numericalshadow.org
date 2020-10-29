@@ -1,1 +1,4 @@
 # Literature
+
+```@bibliography
+```
