@@ -8,7 +8,7 @@ For any square matrix ``A`` of dimension ``d``, one defines its
 complex plane, supported in the numerical range ``W(A)``, 
 ```math
  P_A(z) :=
-\int\_{\Omega_d} {\rm d} \mu(\psi) \delta\Bigl( z-\langle
+\int_{\Omega_d} {\rm d} \mu(\psi) \delta\Bigl( z-\langle
 \psi |A| \psi\rangle\Bigr).
 ```
 Here ``\mu(\psi)`` denotes the

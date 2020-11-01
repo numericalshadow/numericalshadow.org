@@ -5,12 +5,12 @@ W entangled numerical shadow of a matrix ``A`` of dimension ``d`` is
 defined as a probability distribution ``P_A(z)`` on the complex plane,
 supported on the [maximally entangled numerical
 range](/numerical-range/generalizations/restricted-numerical-range/maximally-entangled-numerical-range)
-``W^\mathrm{ent}(A)``. ```` P_A(z) := \int\_{\Omega} {\rm d}
+``W^\mathrm{ent}(A)``. ```` P_A(z) := \int_{\Omega} {\rm d}
 \mu(\psi) \delta\Bigl( z-\langle \psi\|A\|\psi\rangle\Bigr),
 ```` where ``\mu(\psi)`` denotes the unique unitarily invariant
 (Fubini-Study) measure on the set ```` \Omega=\\{\ket{\psi} \in
 \mathbb{C}^{2^d}: \ket{\psi} = \frac{1}{\sqrt{d}}
-\bigotimes\_{i=1}^d U_i \left( \ket{10\ldots 0} + \ket{01 \ldots
+\bigotimes_{i=1}^d U_i \left( \ket{10\ldots 0} + \ket{01 \ldots
 0} + \ldots + \ket{00 \ldots 1} \right)\\}, ```` where \$U_i \in
 SU(2)\$.
 

@@ -66,7 +66,7 @@ rank-2 operators
 ----------------
 
 Let ``W(A) `` will be the numerical range of matrix \$A \in
-M_n(\mathbb{C})`` and let ``\$ \mathcal{F}\_n = \\{ W(A): A \in
+M_n(\mathbb{C})`` and let ``\$ \mathcal{F}_n = \\{ W(A): A \in
 M_n(\mathbb{C}) \\}```` be the set of all numerical ranges arising in
 ``n`` dimensions.
 
@@ -74,7 +74,7 @@ M_n(\mathbb{C}) \\}```` be the set of all numerical ranges arising in
 
 Let `` A `` be such operator that ``rank(A− \lambda \1)=2`` for some
 ``\lambda \in \mathbb{C}``. Then ``W(A)`` either is an element of
-``\mathcal{F}\_3``, or the convex hull of two ellipses having a common
+``\mathcal{F}_3``, or the convex hull of two ellipses having a common
 focus, or has at most one flat portion on its boundary.
 
 More properties (with examples) about rank-two operators is studied in

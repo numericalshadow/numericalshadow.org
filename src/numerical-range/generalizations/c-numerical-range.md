@@ -6,8 +6,8 @@ Definition
 
 Let ``A`` be an ``d \times d`` matrix and ``(c_1, c_2, \ldots, c_d)``
 be a real d-tuple. The ``c``-numerical range of ``A`` is the set ````
-W_c(A) = \left\\{ \sum\_{j=1}^d c_j \bra{x_j} A \ket{x_j}:
-\\{\ket{x_i}\\}\_{i=1}^d \mathrm{\\;forms\\; an\\; orthonormal\\;
+W_c(A) = \left\\{ \sum_{j=1}^d c_j \bra{x_j} A \ket{x_j}:
+\\{\ket{x_i}\\}_{i=1}^d \mathrm{\\;forms\\; an\\; orthonormal\\;
 basis\\; of\\;} \mathbb{C}^d \right\\}. ```` Let
 ``C=\mathrm{\\;diag}(c_1, c_2, \ldots, c_d)``.\
 Then ``\mu \in W_c(A) \iff \mu = \tr(CU^\dagger AU)`` for some
@@ -30,7 +30,7 @@ Properties of ``W_C(A)`` of a matrix ``A`` of dimension ``d \times d``:
 4.  For any ``\mu, \eta \in \mathbb{C}``, then \$W_C(\mu A + \eta
     \1) = \mu W_C(A) + \eta \tr(C)\$;
 5.  ``W_C(U^\dagger AU) = W_C(A)`` for any unitary matrix ``U``;
-6.  ``W\_{V^\dagger CV}(A) = W_C(A)`` for any unitary matrix ``V``;
+6.  ``W_{V^\dagger CV}(A) = W_C(A)`` for any unitary matrix ``V``;
 7.  ``W_C(A) = W_C(A^\top) \iff C^\top \in \mathcal{U}(C)``
 8.  \$\overline{W_C(A)} = W_C(\overline{A}) \iff \overline{C} \in
     \mathcal{U}(C)\$
@@ -73,25 +73,25 @@ between ``\mathcal X`` and ``\mathcal Y``, respectively. By
 
 \begin{equation} \mathcal B^p(\mathcal X,\mathcal Y) :=
 \Big\lbrace C \in\mathcal K(\mathcal X,\mathcal
-Y)\\,\Big\|\\,\sum\nolimits\_{n=1}^\infty
+Y)\\,\Big\|\\,\sum\nolimits_{n=1}^\infty
 s_n(C)^p\<\infty\Big\rbrace \end{equation} for \$p\in
 \[1,\infty)`` whereas the Schatten-``p``-norm of matrix ``A\$
-\begin{equation} \|\|A\|\|\_p := \Big(\sum\_{n=1}^\infty
+\begin{equation} \|\|A\|\|_p := \Big(\sum_{n=1}^\infty
 s_n(A)^p\Big)^{1/p} \end{equation} where sequence
-``(s_n)\_{n=1}^{\infty}`` comes from above well-know Schmidt
+``(s_n)_{n=1}^{\infty}`` comes from above well-know Schmidt
 decomposition theorem.
 
 #### Schmidt decomposition
 
 For each ``C \in \mathcal K(\mathcal X,\mathcal Y)``, there exists a
-decreasing null sequence ``(s_n(C))\_{n\in\mathbb N}`` in
-``\[0,\infty)`` as well as orthonormal systems \$(f_n)\_{n\in\mathbb
-N}`` in ``\mathcal X`` and ``(g_n)\_{n\in\mathbb N}`` in ``\mathcal
-Y\$ such that \begin{align*} C = \sum\_{n=1}^\infty s_n(C)\langle
+decreasing null sequence ``(s_n(C))_{n\in\mathbb N}`` in
+``\[0,\infty)`` as well as orthonormal systems \$(f_n)_{n\in\mathbb
+N}`` in ``\mathcal X`` and ``(g_n)_{n\in\mathbb N}`` in ``\mathcal
+Y\$ such that \begin{align*} C = \sum_{n=1}^\infty s_n(C)\langle
 f_n,\cdot\rangle g_n\\,, \end{align*} where the series converges in
 the operator norm.
 
-Moreover, the sequence ``(s_n(C))\_{n\in\mathbb N}`` is uniquely
+Moreover, the sequence ``(s_n(C))_{n\in\mathbb N}`` is uniquely
 determined by ``C``.
 
 #### Definition

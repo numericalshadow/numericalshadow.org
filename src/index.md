@@ -14,9 +14,6 @@ of matrix
 \end{pmatrix}
 ``` 
 is forming an image of ``\mathbb{R}P^1 \times \mathbb{R}P^1``. 
-```math
-\ket{a}
-```
 
 ## Menu
 

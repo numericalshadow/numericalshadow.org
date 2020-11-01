@@ -8,7 +8,7 @@ Real numerical shadow of a matrix ``A`` of dimension ``d`` is defined as
 a probability ditribution ``P_A(z)`` on the complex plane, supported on
 the [real numerical
 range](/numerical-range/generalizations/restricted-numerical-range/real-numerical-range)
-``W^\mathbb{R}(A)``. ```` P_A(z) := \int\_{\Omega} {\rm d}
+``W^\mathbb{R}(A)``. ```` P_A(z) := \int_{\Omega} {\rm d}
 \mu(\psi) \delta\Bigl( z-\langle \psi\|A\|\psi\rangle\Bigr),
 ```` where ``\mu(\psi)`` denotes the unique unitarily invariant
 (Fubini-Study) measure on the set ```` \Omega=\\{\ket{\psi} \in

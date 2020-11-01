@@ -11,12 +11,12 @@ rank ``k``. The ``k``-numerical range of ``A`` is the set \\\[ W_k(A) =
 Note that, this numerical range is different from the
 [higher-rank-numerical-range](/numerical-range/generalizations/higher-rank-numerical-range)
 as for a Hermitian matrix ``A``, we get \\\[ W_k =
-\left\[\frac{1}{k}\sum\_{i=1}^k\lambda_i,
-\frac{1}{k}\sum\_{i=0}^{k-1} \lambda\_{d-i} \right\]. \\\] where
+\left\[\frac{1}{k}\sum_{i=1}^k\lambda_i,
+\frac{1}{k}\sum_{i=0}^{k-1} \lambda_{d-i} \right\]. \\\] where
 ``\lambda_i`` are the eigenvalues of ``A`` in an increasing order. On
 the other hand, the
 [higher-rank-numerical-range](/numerical-range/generalizations/higher-rank-numerical-range)
-is given by \\\[ \Lambda_k(A) = \[\lambda_k, \lambda\_{d-k+1}\], \\\]
+is given by \\\[ \Lambda_k(A) = \[\lambda_k, \lambda_{d-k+1}\], \\\]
 Hence, we get \\\[ \Lambda_k(A) \subset W_k(A). \\\] We should note
 that in the case when ``k=1`` the ``k``-numerical range becomes the
 standard numerical range \\\[ W_1(A) = W(A) = \Lambda_1(A). \\\]

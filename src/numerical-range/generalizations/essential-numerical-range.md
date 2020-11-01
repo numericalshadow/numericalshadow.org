@@ -13,7 +13,7 @@ Definition
 
 For a linear operator T with domain ``\mathcal{D}(T) \subset H`` we
 define the essential numerical range of ``T`` by ```` W_e(T ) =
-\\{\lambda \in \mathbf{C} : \exists (x_n)\_{n \in \mathbf{N}
+\\{\lambda \in \mathbf{C} : \exists (x_n)_{n \in \mathbf{N}
 }\subset \mathcal{D}(T ) \\,\\,\\, \text{with} \\,\\,\\, \|\|x_n\|\|
 = 1, x_n \rightarrow 0, \braket{Tx_n}{x_n} \rightarrow \lambda \\} .
 ````
@@ -21,7 +21,7 @@ define the essential numerical range of ``T`` by ```` W_e(T ) =
 ### Properties
 
 For any ``z \in \mathbb{C}`` and let ```` \sigma_e(T) = \\{ \lambda
-\in \mathrm{C} : \exists (x_n)\_{n \in \mathbb{N}} \subset
+\in \mathrm{C} : \exists (x_n)_{n \in \mathbb{N}} \subset
 \mathcal{D}(T ) \\,\\,\\, \text{with} \\,\\,\\, \|\|xn\|\| = 1, (x_n)
 \rightarrow 0, \|\|(T- \lambda)x_n \|\| \rightarrow 0 \\} ```` then
 we have [bogli2020essential](@cite)

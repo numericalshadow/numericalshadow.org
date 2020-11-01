@@ -6,8 +6,8 @@ Doubly stochastic matrices
 
 A doubly stochastic matrix ``A \in \mathbb{R}^{n \times n } `` is a
 matrix for which the entries are non-negative while the row and column
-sums are all equal to one ```` \sum\_{j=1}^{n} a\_{ij} = 1 \text{ for
-} i=1,\ldots,n ```` and ```` \sum\_{i=1}^{n} a\_{ij} = 1 \text{ for
+sums are all equal to one ```` \sum_{j=1}^{n} a_{ij} = 1 \text{ for
+} i=1,\ldots,n ```` and ```` \sum_{i=1}^{n} a_{ij} = 1 \text{ for
 } j=1,\ldots,n````
 
 ### Theorem

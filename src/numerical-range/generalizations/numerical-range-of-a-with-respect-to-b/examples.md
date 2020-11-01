@@ -20,7 +20,7 @@ Diagonal matrix ````A=\begin{pmatrix} 1 & 0 & 0 & 0\
 
 ![](/numerical-range/generalizations/nr_diagonal_id_inf.gif){.align-center}
 Under this assumption, the numerical range
-``w\_{\|\|\cdot\|\|\_\infty}(A;\1_4)= W(A)``.
+``w_{\|\|\cdot\|\|_\infty}(A;\1_4)= W(A)``.
 
 ### Example 2
 

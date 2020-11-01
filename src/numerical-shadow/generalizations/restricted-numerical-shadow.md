@@ -8,9 +8,9 @@ Combining the ideas of the [restricted numerical
 range](/numerical-range/generalizations/restricted-numerical-range) with
 the [numerical shadow](/numerical-shadow/) one is led in a natural way
 to the definition of a restricted numerical shadow, ```` P^R_A(z) \\ :=
-\\ \int\_{R} {\rm d} \mu(\psi) \\ \delta\Bigl( z-\langle
+\\ \int_{R} {\rm d} \mu(\psi) \\ \delta\Bigl( z-\langle
 \psi\|A\|\psi\rangle\Bigr) \\ , ```` where `` R`` is a selected
-subset of ``{\Omega}\_d``, the set of dimension ``d`` pure quantum
+subset of ``{\Omega}_d``, the set of dimension ``d`` pure quantum
 states.
 
 Examples

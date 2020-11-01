@@ -32,8 +32,8 @@ other words, ``W(A_1+\ii A_2)=\text{conv}(T)``.
 
 Let we denote ``T_i`` as the semi-algebraic set \\\[ T_i = \left\\{
 (y_1,\dots,y_n) \in (\mathbb{R}^n)^\ast \mid
-(1:y_1:\dots:y_n)\in (X_i^\ast)\_\text{reg} \right\\}, \qquad
-i=1,\dots,r \\\] and ``(X^{*}\_i)\_{\text{reg}}`` as the set of the
+(1:y_1:\dots:y_n)\in (X_i^\ast)_\text{reg} \right\\}, \qquad
+i=1,\dots,r \\\] and ``(X^{*}_i)_{\text{reg}}`` as the set of the
 regular points of the dual variety ``X^*``.
 
 ### Theorem
