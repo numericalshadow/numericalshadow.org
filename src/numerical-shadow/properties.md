@@ -5,8 +5,8 @@ Properties of numerical shadow
     [numerical range](/numerical-range) of ``W(A)`` and it is
     normalized, 
 ```math 
- \int_{W(A)} P_A(z) d^2 z =1.
- ```
+\int_{W(A)} P_A(z) d^2 z =1.
+```
 
 2.  The (numerical) shadow is unitarily invariant,
     ``P_A(z)=P_{UAU^*}(z)``. This is a consequence of the fact that
@@ -22,12 +22,15 @@ Properties of numerical shadow
     projection of the complex projective manifold \$\Omega_N={\mathbb
     C}P^{N-1}\$ onto a plane.
 5.  For any two matrices ``A`` and ``B``, the shadow of their tensor
-    product does not depend on the order, ```` P_{A \otimes
-    B}(z)=P_{B \otimes A} (z)\\; .```` To show this property define a
-    unitary swap operator ``S`` which acts on a composite Hilbert space
-    and interchanges the order in the tensor product, \$S(\ket{z}
-    \otimes \ket{y})=\ket{y} \otimes \ket{z}``. Thus `` \bra{x} A
-    \otimes B \ket{x} = \bra{x} S^{*} B \otimes A S \ket{x}\$,
-    and since ``S`` is unitary it does not influence the numerical
-    shadow induced by the unitarily invariant Fubini-Study measure on
-    complex projective space.
+    product does not depend on the order,
+```math
+P_{A \otimes B}(z)=P_{B \otimes A} (z).
+``` 
+To show this property define a
+unitary swap operator ``S`` which acts on a composite Hilbert space
+and interchanges the order in the tensor product, ``S(\ket{z}
+\otimes \ket{y})=\ket{y} \otimes \ket{z}``. Thus ``\bra{x} A
+\otimes B \ket{x} = \bra{x} S^{*} B \otimes A S \ket{x}``,
+and since ``S`` is unitary it does not influence the numerical
+shadow induced by the unitarily invariant Fubini-Study measure on
+complex projective space.
