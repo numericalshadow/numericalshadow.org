@@ -21,7 +21,7 @@ that }PMP=\\lambda P\\}, \\\] where \$P_k\$ denotes the set of
 rank\--\$k\$ orthogonal projections in \$M_N\$. It is not hard to verify
 that \$\\Lambda_K(M)\$ can also be described as the set of complex
 \$\\lambda\$ such that there is some \$k\$\--dimensional subspace \$S\$
-of \$\\mathbb{C}\^N\$ such that \$(Mu,u)=\\lambda\$ for **all** unit
+of \$\\mathbb{C}^N\$ such that \$(Mu,u)=\\lambda\$ for **all** unit
 vectors in \$S\$. In particular, we see that \\\[
 W(M)=\\Lambda_1(M)\\supseteq\\Lambda_2(M)\\supseteq\\Lambda_3(M)\\supseteq\\dots\\quad.
 \\\]

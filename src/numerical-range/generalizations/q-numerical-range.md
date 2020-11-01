@@ -6,8 +6,8 @@ Definition
 
 Let \$A\$ be an \$d \\times d\$ matrix. The q-numerical range of \$A\$
 is the set: \\\[ W_q(A) = \\left\\{ z \\in \\mathbb{C}: z =
-\\bra{x}A\\ket{y}, \\braket{x}{y} = q, \\ket{x} \\in \\mathbb{C}\^d,
-\\ket{y} \\in \\mathbb{C}\^d, \\braket{x}{x} = 1, \\braket{y}{y} = 1
+\\bra{x}A\\ket{y}, \\braket{x}{y} = q, \\ket{x} \\in \\mathbb{C}^d,
+\\ket{y} \\in \\mathbb{C}^d, \\braket{x}{x} = 1, \\braket{y}{y} = 1
 \\right\\}. \\\]
 
 Properties

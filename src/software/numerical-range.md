@@ -19,7 +19,7 @@ Numerical range
 
 ### Python / Numpy
 
-``` {.python}
+```python
 import numpy as np
 import matplotlib.mlab as mlab
 
@@ -64,7 +64,7 @@ def numerical_range(A,resolution=0.01):
 
 ### Julia
 
-``` {.julia}
+```julia
 using LinearAlgebra
 ##
 function numericalrange(A,resolution=0.01)

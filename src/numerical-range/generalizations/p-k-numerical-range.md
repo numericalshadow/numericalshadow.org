@@ -14,7 +14,7 @@ The other useful application the \$(p,k)\$ numerical range we can see in
 [cao2020higher](@cite). In order to introduce the definition of
 \$(p,k)\$ numerical range, let \$M_n\$ will be the set of all matrices
 of dimension \$n\$ and by
-\$\\mathrm{U}\\left(\\mathbb{C}\^{k},\\mathbb{C}\^{l}\\right)\$ it will
+\$\\mathrm{U}\\left(\\mathbb{C}^{k},\\mathbb{C}^{l}\\right)\$ it will
 be denoted the set of all isometries of dimension \$k \\times l\$. The
 \$(p,k)\$ numerical range of the matrix \$A \\in M_n\$ is defined as [choi2009multiplicative](@cite) \\begin{equation}
 
@@ -30,22 +30,22 @@ Properties
 We have the following properties of \$\\Lambda\_{p,k}(A)\$ for \$A \\in
 M_n\$:
 
-\* \$\\Lambda\_{p,k}(\\alpha A + \\beta \\mathbf{1}\_n) = \\alpha
+* \$\\Lambda\_{p,k}(\\alpha A + \\beta \\mathbf{1}\_n) = \\alpha
 \\Lambda\_{p,k}(A) + \\beta \\mathbf{1}\_p\$ for \$\\alpha, \\beta \\in
 \\mathbb{C}\$.
 
-\* \$\\Lambda\_{p,k}(U\^\\dagger A U) \\subset \\Lambda\_{p,k}(A)\$ for
-any isometry \$U \\in \\mathrm{U}\\left( \\mathbb{C}\^m, \\mathbb{C}\^n
+* \$\\Lambda\_{p,k}(U^\\dagger A U) \\subset \\Lambda\_{p,k}(A)\$ for
+any isometry \$U \\in \\mathrm{U}\\left( \\mathbb{C}^m, \\mathbb{C}^n
 \\right)\$.
 
-\* \$\\Lambda\_{p,k}(U\^\\dagger A U) = \\Lambda\_{p,k}(A)\$ for any
-unitary matrix \$U \\in \\mathrm{U}\\left( \\mathbb{C}\^n \\right)\$.
+* \$\\Lambda\_{p,k}(U^\\dagger A U) = \\Lambda\_{p,k}(A)\$ for any
+unitary matrix \$U \\in \\mathrm{U}\\left( \\mathbb{C}^n \\right)\$.
 
-\* \$ B \\in \\Lambda\_{p,k}(A)\$ if and only if \$U\^\\dagger B U \\in
-\\Lambda\_{p,k}(A)\$ for any \$U \\in \\mathrm{U}\\left( \\mathbb{C}\^p
+* \$ B \\in \\Lambda\_{p,k}(A)\$ if and only if \$U^\\dagger B U \\in
+\\Lambda\_{p,k}(A)\$ for any \$U \\in \\mathrm{U}\\left( \\mathbb{C}^p
 \\right)\$.
 
-\* If \$ B \\in \\Lambda\_{p,k}(A)\$, then \$\\Lambda\_{n-pk+1}(A)
+* If \$ B \\in \\Lambda\_{p,k}(A)\$, then \$\\Lambda\_{n-pk+1}(A)
 \\subset \\Lambda_1(B) \\subset \\Lambda_k(A)\$.
 
 We can observe that the \$(p,k)\$ numerical range of some matrux \$A\$
@@ -70,17 +70,17 @@ Theorem
 The \$(p,k)\$ numerical range of given matrix \$A \\in M_n\$ is
 non-empty set when:
 
-\* \$n \\geq 2(p+1)k-3\$.
+* \$n \\geq 2(p+1)k-3\$.
 
-\* There exists \$U \\in \\mathrm{U}\\left(\\mathbb{C}\^n\\right)\$ such
-that \$U\^\\dagger A U=A_1 \\oplus \\ldots \\oplus A_p\$, where
+* There exists \$U \\in \\mathrm{U}\\left(\\mathbb{C}^n\\right)\$ such
+that \$U^\\dagger A U=A_1 \\oplus \\ldots \\oplus A_p\$, where
 \$\\Lambda_k(A_j) \\not= \\emptyset\$ for all \$j=1,\\ldots,p\$.
 
-\* There exists \$U \\in \\mathrm{U}\\left(\\mathbb{C}\^n\\right)\$ such
-that \$U\^\\dagger A U=A_1 \\oplus \\ldots \\oplus A_p\$, where \$\\dim
+* There exists \$U \\in \\mathrm{U}\\left(\\mathbb{C}^n\\right)\$ such
+that \$U^\\dagger A U=A_1 \\oplus \\ldots \\oplus A_p\$, where \$\\dim
 A_j \\geq 3k-2\$ for all \$j=1,\\ldots,p\$.
 
-\* Matrix \$A\$ is normal and \$n \\geq (3k-2)p\$.
+* Matrix \$A\$ is normal and \$n \\geq (3k-2)p\$.
 
 Theorem for Hermitian matrices
 ------------------------------
@@ -109,7 +109,7 @@ Related open problems
 ---------------------
 
 1\. Determine all possible \$k \\times k\$ principal submatrices of
-\$U\^\\dagger A U\$ for \$U \\in \\mathrm{U}\\left( \\mathbb{C}\^n
+\$U^\\dagger A U\$ for \$U \\in \\mathrm{U}\\left( \\mathbb{C}^n
 \\right)\$.
 
 2\. Determine the optimal \$n\$ so that \$\\Lambda\_{p,k}(A)\$ is

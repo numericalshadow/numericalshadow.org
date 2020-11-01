@@ -27,16 +27,16 @@ any matrix \$A \\in M_d\$.
 
 Let \$M \\in M_d\$. Then higher rank-\$k\$ numerical range of \$M\$ we
 can alternatively define as \\begin{equation} \\Lambda_k(M) = \\left\\{
-\\alpha \\in \\mathbb{C}: U\^\\dagger M U =
-\\left\[\\begin{array}{cc}\\alpha \\1_k&\*\
-\* &\*\\end{array}\\right\] \\text{for some unitary } U \\right\\}.
+\\alpha \\in \\mathbb{C}: U^\\dagger M U =
+\\left\[\\begin{array}{cc}\\alpha \\1_k&*\
+* &*\\end{array}\\right\] \\text{for some unitary } U \\right\\}.
 \\end{equation}
 
 Equivalently [li2008canonical](@cite),
 
 \\begin{equation} \\Lambda_k(M) = \\left\\{\\alpha \\in \\mathbb{C}:
-e\^{i \\xi}\\alpha + e\^{-i\\xi} \\bar{\\alpha} \\le \\lambda_k \\left(
-e\^{i \\xi}M + e\^{-i\\xi} M\^\\dagger \\right) \\text{for all } \\xi
+e^{i \\xi}\\alpha + e^{-i\\xi} \\bar{\\alpha} \\le \\lambda_k \\left(
+e^{i \\xi}M + e^{-i\\xi} M^\\dagger \\right) \\text{for all } \\xi
 \\in \[0,2\\pi) \\right\\} \\end{equation} where \$\\lambda_k(X)\$ is
 \$k\$-th eigenvalue of given matrix \$X\$.
 
@@ -49,7 +49,7 @@ j\_{n-k+1} \\le n } \\mathrm{conv} \\left\\{ m\_{j_1}, \\ldots ,
 m\_{j\_{n-k+1}}\\right\\}. \\end{equation} It is not hard to verify that
 \$\\Lambda_K(M)\$ can also be described as the set of complex
 \$\\lambda\$ such that there is some \$k\$-dimensional subspace \$S\$ of
-\$\\mathbb{C}\^d\$ such that \$(Mu,u)=\\lambda\$ for **all** unit
+\$\\mathbb{C}^d\$ such that \$(Mu,u)=\\lambda\$ for **all** unit
 vectors in \$S\$. In particular, we see that \\\[
 W(M)=\\Lambda_1(M)\\supseteq\\Lambda_2(M)\\supseteq\\Lambda_3(M)\\supseteq\\dots\\quad.
 \\\]
@@ -60,8 +60,8 @@ Hermitian matrix \$A\$, we get \\\[ \\Lambda_k(A) = \[\\lambda_k,
 \\lambda\_{N-k+1}\], \\\] where \$\\lambda_k\$ are the eigenvalues of
 \$A\$ in an increasing order. On the other hand, the [\$k\$-numerical
 range](/numerical-range/generalizations/k-numerical-range) is given by
-\\\[ W_k = \\left\[\\frac{1}{k}\\sum\_{i=1}\^k\\lambda_i,
-\\frac{1}{k}\\sum\_{i=0}\^{k-1} \\lambda\_{d-i} \\right\]. \\\] Hence,
+\\\[ W_k = \\left\[\\frac{1}{k}\\sum\_{i=1}^k\\lambda_i,
+\\frac{1}{k}\\sum\_{i=0}^{k-1} \\lambda\_{d-i} \\right\]. \\\] Hence,
 we get \\\[ \\Lambda_k(A) \\subset W_k(A). \\\]
 
 Special cases
@@ -92,7 +92,7 @@ Undermentioned examples are made by Raymond Nung-Sing Sze.
 #### Unitary matrices
 
 1\. Consider a diagonal unitary matrix \$U_5 =
-\\mathrm{diag}(\\left\\{\\ee\^{2\\pi \\ii k/5}\\right\\}\_{k=1}\^5)\$.
+\\mathrm{diag}(\\left\\{\\ee^{2\\pi \\ii k/5}\\right\\}\_{k=1}^5)\$.
 The blue line represents the numerical range \$\\Lambda_1(U_5) =
 W(U_5)\$ and the grey figure the real numerical shadow of \$U_5\$. The
 red polygon inside is \$\\Lambda_2(U_5)\$.
@@ -100,7 +100,7 @@ red polygon inside is \$\\Lambda_2(U_5)\$.
 width="500"}
 
 2\. Consider a diagonal unitary matrix \$U_7 =
-\\mathrm{diag}(\\left\\{\\ee\^{2\\pi \\ii k/7}\\right\\}\_{k=1}\^7)\$.
+\\mathrm{diag}(\\left\\{\\ee^{2\\pi \\ii k/7}\\right\\}\_{k=1}^7)\$.
 The blue line represents the numerical range \$\\Lambda_1(U_7) =
 W(U_7)\$ and the grey figure the real numerical shadow of \$U_7\$. The
 red polygon inside is higher \$2\$-rank numerical range
@@ -110,7 +110,7 @@ range \$\\Lambda_3(U_7)\$.
 width="500"}
 
 3\. Consider a diagonal unitary matrix \$A=
-\\mathrm{diag}(\\left\\{\\ee\^{2\\pi \\ii k/9}\\right\\}\_{k=1}\^9)\$.
+\\mathrm{diag}(\\left\\{\\ee^{2\\pi \\ii k/9}\\right\\}\_{k=1}^9)\$.
 The first picture represents \$\\Lambda_1(A) = W(A) \$ classical
 numerical range of \$A\$ whereas the second picture represents higher
 \$2\$-rank numerical range \$\\Lambda_2(A)\$.

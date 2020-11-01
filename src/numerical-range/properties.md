@@ -7,14 +7,14 @@ Properties of [numerical range](/numerical-range/) \$W(A)\$ of a matrix
 1.  \$W(A)\$ is a compact subset of \$\\mathbb{C}\$,
 2.  \$W(A)\$ is convex set (Hausdorff-Toeplitz theorem) [toeplitz1918algebraische](@cite), [hausdorff1919wertvorrat](@cite),
 3.  \$W(A)\$ contains the spectrum of \$A\$,
-4.  if \$AA\^\\dagger=A\^\\dagger A\$ (\$A\$ is a normal matrix) then
+4.  if \$AA^\\dagger=A^\\dagger A\$ (\$A\$ is a normal matrix) then
     \$W(A)\$ is convex hull of spectrum of \$A\$,
-5.  if \$A=A\^\\dagger\$ then \$W(A)=\[\\lambda_1, \\lambda_N\]\$ forms
+5.  if \$A=A^\\dagger\$ then \$W(A)=\[\\lambda_1, \\lambda_N\]\$ forms
     an interval in the real axis,
 6.  if \$N=2\$ then \$W(A)\$ forms an elliptic disk with eigenvalues
     \$\\lambda_1\$ and \$\\lambda_2\$ as focal points and the minor axis
-    \$d = \\sqrt{\\tr(AA\^\\dagger) - \|\\lambda_1\|\^2-
-    \|\\lambda_2\|\^2}\$ [murnaghan1932field](@cite).
+    \$d = \\sqrt{\\tr(AA^\\dagger) - \|\\lambda_1\|^2-
+    \|\\lambda_2\|^2}\$ [murnaghan1932field](@cite).
 7.  if \$N=3\$ we distinguish four cases (classification by Keeler,
     Rodman, Spitkovsky) [keeler1997numerical](@cite):
     1.  \$W(A)\$ is a compact set of an \'ovular\' shape containing
@@ -57,7 +57,7 @@ Gau--Wu numbers
 
 We define the Gau--Wu number of a matrix \$A\$, denoted \$k(A)\$, to be
 the maximum size of an orthonormal set \$\\{x_1,\\ldots,x_k\\} \\subset
-\\mathcal{C}\^n\$ such that the values \$\\bra{x_j}A\\ket{x_j}\$ lie on
+\\mathcal{C}^n\$ such that the values \$\\bra{x_j}A\\ket{x_j}\$ lie on
 \$\\partial W(A)\$. [gau2013numerical](@cite)
 
 The properties of Gau-Wu number was widely studied in [camenga2019singularities](@cite), [camenga2014gau](@cite).

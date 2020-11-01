@@ -1,6 +1,4 @@
 using Documenter, DocumenterCitations
-# using BibInternal
-# Documenter.Utilities.header_level(::BibInternal.Entry) = 1
 
 nr_examples = [
     "numerical-range/examples.md",
@@ -87,7 +85,25 @@ ns = [
 ]
 
 format = Documenter.HTML(
-    prettyurls = !("local" in ARGS)
+    prettyurls = !("local" in ARGS),
+    mathengine = mathengine = MathJax3(Dict(
+        :tex=>Dict(
+            "inlineMath"=>[ ["\$","\$"], ["\\(","\\)"] ],
+            "processEscapes"=>true,
+            "macros"=>Dict(
+                "bra"=> ["{\\langle #1|}",1],
+                "ket"=> ["{| #1\\rangle}",1],
+                "ketbra"=> ["{\\left| #1 \\rangle \\langle #2 \\right|}",2],
+                "braket"=> ["{\\langle #1|#2\\rangle}",2],
+                "Tr"=> ["\\mathrm{Tr}",0],
+                "tr"=> ["\\Tr",0],
+                "ee"=> ["\\mathrm{e}"],
+                "ii"=> ["\\mathrm{i}"],
+                "dd"=> ["\\mathrm{d}"],
+                "1"=> ["{\\mathbb{1}}"]
+            )
+        )
+    ))
 )
 
 bib = CitationBibliography("references.bib")

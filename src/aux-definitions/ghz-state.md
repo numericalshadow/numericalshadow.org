@@ -7,8 +7,8 @@ having extremely non-classical properties.
 
 For a system of ``d`` qubits the *GHZ state* can be written as
 ```math
-\ket{\mathrm{GHZ}} = \frac{\ket{0}\^{\otimes d} +
-\ket{1}\^{\otimes d}}{\sqrt{2}}.
+\ket{\mathrm{GHZ}} = \frac{\ket{0}^{\otimes d} +
+\ket{1}^{\otimes d}}{\sqrt{2}}.
 ```
 
 The simplest one is the 3-qubit GHZ state is: 
@@ -24,7 +24,7 @@ but many measures define the GHZ to be *maximally entangled*.
 Important property of the GHZ state is that when we trace over one of
 the three systems we get
 ```math
-Tr_3\left((\ket{000}+\ket{111})(\bra{000}+\bra{111}) \right) =
+\Tr_3\left((\ket{000}+\ket{111})(\bra{000}+\bra{111}) \right) =
 \ket{00}\bra{00} + \ket{11}\bra{11}
 ```
 which is an unentangled mixed state. It has certain two-particle (qubit)

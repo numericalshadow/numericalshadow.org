@@ -22,8 +22,8 @@ state, pointing toward the 'north pole' of the sphere, enjoys the
 minimal uncertainty equal to \$j\$ . Then, the vector coherent state is
 defined by the Wigner rotation matrix \$R\_{\\vartheta, \\varphi}\$ \$\$
 \\ket{\\vartheta,\\varphi} = R\_{\\vartheta,\\varphi} \\ket{\\kappa} =
-(1 + \|\\gamma\|\^2)\^{−j} e\^{\\gamma J\_−} \\ket{j, j} \$\$ where
+(1 + \|\\gamma\|^2)^{−j} e^{\\gamma J\_−} \\ket{j, j} \$\$ where
 \$R\_{\\vartheta,\\varphi} = \\exp\[( \\ii \\vartheta( \\cos\\varphi J_x
 − \\sin \\varphi J_y)\]\$ , \$J\_− = J_x − \\ii J_y\$ and \$\\gamma =
-\\tan(\\vartheta/2)e\^{\\ii\\varphi}\$, for \$(\\vartheta,\\varphi) \\in
-S\^2\$ (we use the spherical coordinates).
+\\tan(\\vartheta/2)e^{\\ii\\varphi}\$, for \$(\\vartheta,\\varphi) \\in
+S^2\$ (we use the spherical coordinates).

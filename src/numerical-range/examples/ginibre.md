@@ -6,7 +6,7 @@ from different ensembles. Gray areas denote numerical ranges and red
 dots denote spectra of matrices.
 
 Matrices are normalized so that for every matrix \$A\$
-\$\\Tr(AA\^\\dagger)=\\dim(A)\$.
+\$\\Tr(AA^\\dagger)=\\dim(A)\$.
 
 In the figures below
 
@@ -22,26 +22,26 @@ Definitions
 -----------
 
 Complex Ginibre matrices \$G_d\$ of dimention \$d\$ with entries
-\$\\xi\_{ij}\$, where \$\\mathbb{E} \|\\xi \_{ij}\|\^2 =1/d\$. As we
+\$\\xi\_{ij}\$, where \$\\mathbb{E} \|\\xi \_{ij}\|^2 =1/d\$. As we
 mention in the introduction, by the circular law, the spectrum of
 \$G_N\$ is asymptotically contained in the unit disk. Note \$\\mathbb{E}
-\\\|G_d\\\| \_{\\rm HS}\^2=d\$.
+\\\|G_d\\\| \_{\\rm HS}^2=d\$.
 
 Upper triangular random matrices \$T_d\$ of dimension \$d\$ with entries
 \$T\_{ij}=\\xi\_{ij}\$ for \$i \<j\$ and \$T\_{ij}=0\$ elsewhere, where
-\$\\mathbb{E} \|\\xi \_{ij}\|\^2 =2/(d-1)\$. Clearly, all eigenvalues of
+\$\\mathbb{E} \|\\xi \_{ij}\|^2 =2/(d-1)\$. Clearly, all eigenvalues of
 \$T_N\$ equal to zero. Note \$\\mathbb{E} \\\|T_d\\\| \_{\\rm
-HS}\^2=d\$.
+HS}^2=d\$.
 
-Diagonalized Ginibre matrices, \$D_d = Z G_d Z\^{-1}\$ of dimension
+Diagonalized Ginibre matrices, \$D_d = Z G_d Z^{-1}\$ of dimension
 \$d\$, so that \$D\_{kl}=\\lambda_k \\delta\_{kl}\$ where
 \$\\lambda_k\$, \$k=1,\\dots, d\$, denote complex eigenvalues of
 \$G_d\$. In order to ensure the uniqueness of the probability
 distribution on diagonal matrices, we assume that it is invariant under
 conjugation by permutations. Note that integrating over the Girko
 circular law one gets the average squared eigenvalue of the complex
-Ginibre matrix, \$\\langle \|\\lambda\|\^2\\rangle =\\int\_{0}\^1 2x\^3
-dx=1/2\$. Thus, \$\\mathbb{E} \\\|D_d\\\| \_{\\rm HS}\^2=d/2\$.
+Ginibre matrix, \$\\langle \|\\lambda\|^2\\rangle =\\int\_{0}^1 2x^3
+dx=1/2\$. Thus, \$\\mathbb{E} \\\|D_d\\\| \_{\\rm HS}^2=d/2\$.
 
 Diagonal unitary matrices \$U_d\$ of order \$d\$ with entries
 \$U\_{kl}=\\exp(i \\phi_k) \\delta\_{kl}\$, where \$\\phi_k\$ are

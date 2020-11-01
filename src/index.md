@@ -3,7 +3,7 @@
 ![Example of a numerical shadow](assets/logo.png)
 
 Example of a [product numericalshadow](numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
-[restricted to realstates](numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
+[restricted to real states](numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
 of matrix
 ```math
 \begin{pmatrix}
@@ -14,6 +14,9 @@ of matrix
 \end{pmatrix}
 ``` 
 is forming an image of ``\mathbb{R}P^1 \times \mathbb{R}P^1``. 
+```math
+\ket{a}
+```
 
 ## Menu
 

@@ -23,7 +23,7 @@ Definition
 Let \$A\$ and \$B\$ be \$N \\times M\$ matrices and let \$\\\| \\cdot
 \\\|\$ be any matrix norm. The rank-k numerical range of \$A\$ with
 respect to \$B\$ is defined as \\\[ \\Lambda\_{k,\\\| \\cdot \\\|}(A; B)
-= \\left\\{ \\mu \\in \\mathbb{C}: \\\|X\^\\dagger(A- \\lambda B)Y \\\|
+= \\left\\{ \\mu \\in \\mathbb{C}: \\\|X^\\dagger(A- \\lambda B)Y \\\|
 \\geq \|\\mu - \\lambda\|, \\forall \\lambda \\in \\mathbb{C}, \\forall
 (X,Y) \\in \\mathcal{X} \\right\\}. \\\] If \$N \\geq M\$, then we use
 redifned set \$\\mathcal{X}\$, namely \$\$\\mathcal{X}= \\left\\{ (X,Y):
@@ -44,7 +44,7 @@ Properties
 
 The most important one is the representation form: \\\[
 \\Lambda\_{k,\\\|\\cdot \\\|}(A;B)= \\bigcap\_{(X,Y) \\in \\mathcal{X}}
-w\_{\\\| \\cdot \\\|}(X\^\\dagger A Y; X\^\\dagger B Y). \\\] This leads
+w\_{\\\| \\cdot \\\|}(X^\\dagger A Y; X^\\dagger B Y). \\\] This leads
 to conclusion, that as requested, \$\\Lambda\_{k,\\\|\\cdot \\\|}(A;B)\$
 is a compact and convex set in \$\\mathbb{C}\$.
 
@@ -56,11 +56,11 @@ Spectrum of rectangular matrix \$A\$ with respect to \$B\$ is defined as
 1\\}. \\\] For more details of this set see [chorianopoulos2009definition](@cite). The proposed generalization of
 \$\\sigma(A;B)\$ is \$k-\$spectrum of \$A\$ with respect to \$B\$
 defined and denoted by \\\[ \\sigma_k(A;B)=\\{\\mu \\in \\mathbb{C}:
-\\dim \\ker (X\^\\dagger (A - \\mu B) Y) \\geq k, \\forall (X,Y) \\in
+\\dim \\ker (X^\\dagger (A - \\mu B) Y) \\geq k, \\forall (X,Y) \\in
 \\mathcal{X} \\},\\\] for \$k \\leq \[(M+1)/2\]\$. Under this
 assumptions, if \$\\\| \\cdot \\\|\$ is induced matrix norm and for
 every unit vector \$z\$ and for all \$(X,Y) \\in \\mathcal{X}\$ we have
-\$\\\| X\^\\dagger B Y z \\\| \\geq 1\$, then \\\[ \\sigma_k(A;B)
+\$\\\| X^\\dagger B Y z \\\| \\geq 1\$, then \\\[ \\sigma_k(A;B)
 \\subset \\Lambda\_{k,\\\| \\cdot \\\|} (A;B).\\\]
 
 Example 1

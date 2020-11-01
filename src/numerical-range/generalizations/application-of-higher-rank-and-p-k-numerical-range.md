@@ -15,7 +15,7 @@ The range space of \$P\$ is known as a quantum error correction code of
 the channel \$\\Phi\$. The task is finding \$P\$ with a maximum rank.
 For a given quantum channel \$\\Phi\$ this problem is equivalent to
 existing scalars \$\\lambda\_{i,j} \\in \\mathbb{C}\$ such that
-\\begin{equation} PA_i\^\\dagger A_i P = \\lambda\_{i,j} P \\text{ for
+\\begin{equation} PA_i^\\dagger A_i P = \\lambda\_{i,j} P \\text{ for
 all } 1\\le i,j\\le r. \\end{equation} This leads to the study [higher
 rank numerical
 range](/numerical-range/generalizations/higher-rank-numerical-range).
@@ -28,12 +28,12 @@ that for each \$B \\in M_k\$ \\begin{equation} R \\circ \\Psi \\left(
 \\end{equation} for some \$A_B \\in M_p\$. Analogously, his problem can
 be is reduced to showing that such recovery channel \$R\$ exists if and
 only if there are scalars \$\\lambda\_{ijrs} \\in \\mathbb{C}\$ such
-that \\begin{equation} P\_{kk} A_i\^\\dagger A_j P\_{ll} =
+that \\begin{equation} P\_{kk} A_i^\\dagger A_j P\_{ll} =
 \\lambda\_{ijrs} P\_{kl} \\text{ for all } 1\\le i,j\\le r \\text{ and }
 1\\le k,l \\le p \\end{equation} where \$P\_{kl} = ( \\ket{k}\\bra{l}
 \\otimes \\mathbf{1}\_k ) \\oplus \\mathbf{0}\_{n-pk} \$ with fixed an
 arbitrary orthonormal basis \$ \\{ e_1, \\ldots, e_p \\} \$ in
-\$\\mathbb{C}\^p\$. This approach we can simplify to consideration
+\$\\mathbb{C}^p\$. This approach we can simplify to consideration
 [\$(p,k)\$ numerical
 range](/numerical-range/generalizations/p-k-numerical-range).
 
@@ -54,7 +54,7 @@ hybrid (classical and quantum) error correction code schemes
 
 The important property of \$\\widetilde{\\Lambda}\_{p,k}\$ which is
 studied is its non-emptiness. Here we present a sufficient condition in
-the case, when \$A_i=A_i\^\\dagger\$ [cao2020higher](@cite).
+the case, when \$A_i=A_i^\\dagger\$ [cao2020higher](@cite).
 
 #### Theorem
 
@@ -70,7 +70,7 @@ there exists a hybrid error correcting code (for more details see
 
 Let \$\\Phi\$ be a quantum channel acting on the space of \$M_n\$, which
 Choi rank is equal to \$c\$. Then \$\\Phi\$ has a hybrid error
-correcting code of dimensions \$(p,k)\$ if \$\$ n \\geq c\^2(c\^2(k−1)
+correcting code of dimensions \$(p,k)\$ if \$\$ n \\geq c^2(c^2(k−1)
 +k(p−1)).\$\$
 
 [^1]: m + 1)(k−1) +k(p−1

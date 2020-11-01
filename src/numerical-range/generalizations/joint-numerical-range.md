@@ -18,11 +18,11 @@ An algebraic curve has been associated with the numerical range and has
 been studied from the 1930s on [plaumann2019kippenhahn](@cite). Let
 \$\\1\$ denote the \$d\\times d\$ identity matrix, \\\[ p(x)=\\det( x_0
 \\1 + x_1 A_1 + \\cdots + x_n A_n ), \\\] and consider the complex
-projective hypersurface \\\[ \\mathcal{V}(p)=\\{x\\in\\mathbb{P}\^n
+projective hypersurface \\\[ \\mathcal{V}(p)=\\{x\\in\\mathbb{P}^n
 \\mid p(x) = 0 \\}. \\\] It was shown that the eigenvalues of \$A_1+\\ii
 A_2\$ are the foci of the affine curve of real points \\\[ T=\\{
 y_1+\\ii y_2 \\mid y_1,y_2\\in\\mathbb{R},(1:y_1:y_2)\\in
-\\mathcal{V}(p)\^\\ast\\}\\subset\\mathbb{C}. \\\] Kippenhahn recognized
+\\mathcal{V}(p)^\\ast\\}\\subset\\mathbb{C}. \\\] Kippenhahn recognized
 the meaning of the convex hull of \$T\$.
 
 ### Theorem
@@ -31,10 +31,10 @@ The numerical range of \$A_1+\\ii A_2\$ is the convex hull of \$T\$, in
 other words, \$W(A_1+\\ii A_2)=\\text{conv}(T)\$.
 
 Let we denote \$T_i\$ as the semi-algebraic set \\\[ T_i = \\left\\{
-(y_1,\\dots,y_n) \\in (\\mathbb{R}\^n)\^\\ast \\mid
-(1:y_1:\\dots:y_n)\\in (X_i\^\\ast)\_\\text{reg} \\right\\}, \\qquad
-i=1,\\dots,r \\\] and \$(X\^{\*}\_i)\_{\\text{reg}}\$ as the set of the
-regular points of the dual variety \$X\^\*\$.
+(y_1,\\dots,y_n) \\in (\\mathbb{R}^n)^\\ast \\mid
+(1:y_1:\\dots:y_n)\\in (X_i^\\ast)\_\\text{reg} \\right\\}, \\qquad
+i=1,\\dots,r \\\] and \$(X^{*}\_i)\_{\\text{reg}}\$ as the set of the
+regular points of the dual variety \$X^*\$.
 
 ### Theorem
 

@@ -13,7 +13,7 @@ respect to \$B\$, as the compact and convex set [chorianopoulos2009definition](@
 \\lambda B \\\|), \\\] where \$\\mathcal{D}(a,r)\$ denotes a closed disc
 on the complex plane with center \$a\$ and radius \$r\$.
 
-For a square matrix \$C \\in \\mathbb{1}\^{N \\times N}\$, we get \\\[
+For a square matrix \$C \\in \\mathbb{1}^{N \\times N}\$, we get \\\[
 w\_{\\\|\\cdot\\\|\_\\infty}(A; \\1_N) = W(A), \\\] where \$W(A)\$
 denotes the standard numerical range.
 
@@ -31,7 +31,7 @@ For any \$A, B\$ of dimension \$ n \\times m\$, the following hold:
 -   If the norm \$\|\| \\cdot \|\|\$ is invariant under the conjugate
     transpose operation, then
 
-\$\$ w\_{\|\|\\cdot\|\|}(A\^\*,B\^\*) = w\_{\|\|\\cdot\|\|}(A,B). \$\$
+\$\$ w\_{\|\|\\cdot\|\|}(A^*,B^*) = w\_{\|\|\\cdot\|\|}(A,B). \$\$
 
 -   For any \$A, B\$ of dimension \$ n \\times m\$ with \$\|\|B\|\|=1\$,
     it holds that
@@ -44,9 +44,9 @@ For any \$A, B\$ of dimension \$ n \\times m\$, the following hold:
     the inner product (called Hilbert-Schmidt norm), it holds that
 
 \$\$ w\_{\|\|\\cdot\|\|\_2}(A,B) = \\mathcal{D} \\left(
-\\frac{\\braket{A}{B}}{\|\|B\|\|\_2\^2}, \\left\|\\left\| A -
-\\frac{\\braket{A}{B}}{\|\|B\|\|\_2\^2}B \\right\|\\right\|\_2
-\\frac{\\sqrt{\|\|B\|\|\_2\^2-1}}{\|\|B\|\|\_2}\\right). \$\$
+\\frac{\\braket{A}{B}}{\|\|B\|\|\_2^2}, \\left\|\\left\| A -
+\\frac{\\braket{A}{B}}{\|\|B\|\|\_2^2}B \\right\|\\right\|\_2
+\\frac{\\sqrt{\|\|B\|\|\_2^2-1}}{\|\|B\|\|\_2}\\right). \$\$
 
 Special case for square matrices
 --------------------------------
@@ -66,10 +66,10 @@ Assume that \$m \\ge n\$. Let \$A\$ be a \$m\\times n \$ matrix and let
 \$H\$ be \$m\\times n \$ isometry matrix. We present three definitions
 [aretaki2009investigating](@cite) of numerical ranges for rectangular
 matrices. \\begin{equation} \\begin{split} w(A)&=\\{ \\bra{y}A \\ket{x}
-: \\ket{x} \\in \\mathbb{C}\^{n}, \\ket{y} \\in \\mathbb{C}\^{m}, \\Vert
+: \\ket{x} \\in \\mathbb{C}^{n}, \\ket{y} \\in \\mathbb{C}^{m}, \\Vert
 x \\Vert\_{2} = \\Vert y \\Vert\_{2} = 1 \\},\
-w\_{l}(A)&=W(H\^{\*}A),\
-w\_{h}(A)&=W(AH\^{\*}). \\end{split} \\end{equation}
+w\_{l}(A)&=W(H^{*}A),\
+w\_{h}(A)&=W(AH^{*}). \\end{split} \\end{equation}
 
 Properties
 ----------
@@ -80,18 +80,18 @@ Let \$A\$ be a \$m \\times n\$ matrix. Then, the following hold
     \\}\$\$
 -   \$\$w(A)=\\{ z\\in\\mathbb{C} : PAQ = zS, P=\\ket{y}\\bra{y},
     Q=\\ket{x}\\bra{x}, S=\\ket{y}\\bra{x},\
-    \\ket{x} \\in \\mathbb{C}\^{n}, \\ket{y} \\in \\mathbb{C}\^{m},
+    \\ket{x} \\in \\mathbb{C}^{n}, \\ket{y} \\in \\mathbb{C}^{m},
     \\Vert x \\Vert\_{2} = \\Vert y \\Vert\_{2} = 1 \\}\$\$
 -   \$\$w(A)=\\mathcal{D}\\left(0,\\max\_{
 
-\\substack{\\ket{\\xi}\_{1},\\ldots,\\ket{\\xi}\_{l}\\in\\mathbb{C}\^{m}\
-\\ket{\\eta}\_{1},\\ldots,\\ket{\\eta}\_{k}\\in\\mathbb{C}\^{n}}}
+\\substack{\\ket{\\xi}\_{1},\\ldots,\\ket{\\xi}\_{l}\\in\\mathbb{C}^{m}\
+\\ket{\\eta}\_{1},\\ldots,\\ket{\\eta}\_{k}\\in\\mathbb{C}^{n}}}
 \\left\\Vert \\begin{bmatrix} \\bra{\\xi}\_{i}A\\ket{\\eta}\_{j}\
-\\end{bmatrix}\_{i,j=1}\^{l,k} \\right\\Vert\_{2}\\right),\$\$ where
+\\end{bmatrix}\_{i,j=1}^{l,k} \\right\\Vert\_{2}\\right),\$\$ where
 \$l, k\$ are integers less than \$m, n\$, respectively and \$\\{
 \\ket{\\xi}\_{1},\\dots,\\ket{\\xi}\_{l} \\}\$ and \$\\{
 \\ket{\\eta}\_{1},\\ldots, \\ket{\\eta}\_{k}\\}\$ are orthonormal
-vectors of \$\\mathbb{C}\^{m}\$ and \$\\mathbb{C}\^{n}\$, respectively.
+vectors of \$\\mathbb{C}^{m}\$ and \$\\mathbb{C}^{n}\$, respectively.
 
 -   \$\$w(A)= \\{ \\braket{A}{B} : B\\in M\_{m,n},\\,\\, \\text{rank}
     (B)=1,\\,\\, \\Vert B \\Vert\_{F}=1 \\}\$\$
@@ -111,9 +111,9 @@ vectors of \$\\mathbb{C}\^{m}\$ and \$\\mathbb{C}\^{n}\$, respectively.
 #### Proposition
 
 Let \$A\\in M\_{m,n}\$, \$m\>n\$ and \$\\lambda\_{0} (\\neq 0)\$ be
-sharp point of \$w\_{h}(A)=F(AH\^{\*})\$ for \$H\\in M\_{m,n}\$,
-\$H\^{\*}H=I\_{n}\$. Then \$\\lambda\_{0}\\in \\sigma(H\^{\*}A)\$ and is
-also sharp point of \$w\_{l}(A)=F(H\^{\*}A)\$.
+sharp point of \$w\_{h}(A)=F(AH^{*})\$ for \$H\\in M\_{m,n}\$,
+\$H^{*}H=I\_{n}\$. Then \$\\lambda\_{0}\\in \\sigma(H^{*}A)\$ and is
+also sharp point of \$w\_{l}(A)=F(H^{*}A)\$.
 
 #### Futher Generalizations
 

@@ -1,7 +1,7 @@
 Generation of random unitary matrices
 =====================================
 
-``` {.python}
+```python
 from scipy import *
 def haar_measure(n):
   "A Random matrix distributed with Haar measure"

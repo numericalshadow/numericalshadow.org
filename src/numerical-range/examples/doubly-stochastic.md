@@ -4,20 +4,20 @@ Numerical range of doubly stochastic matrices
 Doubly stochastic matrices
 --------------------------
 
-A doubly stochastic matrix \$A \\in \\mathbb{R}\^{n \\times n } \$ is a
+A doubly stochastic matrix \$A \\in \\mathbb{R}^{n \\times n } \$ is a
 matrix for which the entries are non-negative while the row and column
-sums are all equal to one \$\$ \\sum\_{j=1}\^{n} a\_{ij} = 1 \\text{ for
-} i=1,\\ldots,n \$\$ and \$\$ \\sum\_{i=1}\^{n} a\_{ij} = 1 \\text{ for
+sums are all equal to one \$\$ \\sum\_{j=1}^{n} a\_{ij} = 1 \\text{ for
+} i=1,\\ldots,n \$\$ and \$\$ \\sum\_{i=1}^{n} a\_{ij} = 1 \\text{ for
 } j=1,\\ldots,n\$\$
 
 ### Theorem
 
 Let A be \$ 4\\times 4\$ doubly stochastic matrix. Then, \$\\partial
 W(A)\$ consists of elliptical arcs and line segments if and only if \$\$
-\\mu := \\tr (A) - 1 + \\frac{ \\tr A\^3 - \\tr (A\^\\top A\^2 )}{ \\tr
-(A\^\\top A ) - \\tr A\^2} \$\$ is an eigenvalue of A (multiple, if
+\\mu := \\tr (A) - 1 + \\frac{ \\tr A^3 - \\tr (A^\\top A^2 )}{ \\tr
+(A^\\top A ) - \\tr A^2} \$\$ is an eigenvalue of A (multiple, if
 \$\\mu =1\$). If, in addition \$\$ \\tr A - 1 - 3\\mu \>0 , (\\tr A -1 -
-3\\mu )\^2 - \\tr(A\^\\top A) + 1 +2 \\frac{\\det (A) }{\\mu} + \\mu\^2
+3\\mu )^2 - \\tr(A^\\top A) + 1 +2 \\frac{\\det (A) }{\\mu} + \\mu^2
 \> 0 \$\$
 
 then \$W(A)\$ also has corner points at \$\\mu\$ and 1, and thus four

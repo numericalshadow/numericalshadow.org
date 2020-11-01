@@ -19,7 +19,7 @@ is defined as [li1991k](@cite). \\begin{equation}
 
 \\end{equation}
 
-We can observe that \$W(n:A) = \\left\\{ U\^\\dagger A U: X \\in
+We can observe that \$W(n:A) = \\left\\{ U^\\dagger A U: X \\in
 \\mathrm{U}\_n \\right\\}\$ and \$W(1:A) = W(A)\$ as [standard numerical
 range](/numerical-range). In particular, many generalizations of
 standard numerical range \$W(A)\$ are actually the ranges of certain

@@ -11,8 +11,8 @@ rank \$k\$. The \$k\$-numerical range of \$A\$ is the set \\\[ W_k(A) =
 Note that, this numerical range is different from the
 [higher-rank-numerical-range](/numerical-range/generalizations/higher-rank-numerical-range)
 as for a Hermitian matrix \$A\$, we get \\\[ W_k =
-\\left\[\\frac{1}{k}\\sum\_{i=1}\^k\\lambda_i,
-\\frac{1}{k}\\sum\_{i=0}\^{k-1} \\lambda\_{d-i} \\right\]. \\\] where
+\\left\[\\frac{1}{k}\\sum\_{i=1}^k\\lambda_i,
+\\frac{1}{k}\\sum\_{i=0}^{k-1} \\lambda\_{d-i} \\right\]. \\\] where
 \$\\lambda_i\$ are the eigenvalues of \$A\$ in an increasing order. On
 the other hand, the
 [higher-rank-numerical-range](/numerical-range/generalizations/higher-rank-numerical-range)
