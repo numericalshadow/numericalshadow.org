@@ -9,7 +9,7 @@ complex plane, supported in the numerical range ``W(A)``,
 ```math
  P_A(z) :=
 \int\_{\Omega_d} {\rm d} \mu(\psi) \delta\Bigl( z-\langle
-\psi\|A\|\psi\rangle\Bigr).
+\psi |A| \psi\rangle\Bigr).
 ```
 Here ``\mu(\psi)`` denotes the
 unique unitarily invariant (Fubini-Study) measure on the set

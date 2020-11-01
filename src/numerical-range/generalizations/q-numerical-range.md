@@ -4,16 +4,16 @@ q-numerical range
 Definition
 ----------
 
-Let \$A\$ be an \$d \\times d\$ matrix. The q-numerical range of \$A\$
-is the set: \\\[ W_q(A) = \\left\\{ z \\in \\mathbb{C}: z =
-\\bra{x}A\\ket{y}, \\braket{x}{y} = q, \\ket{x} \\in \\mathbb{C}^d,
-\\ket{y} \\in \\mathbb{C}^d, \\braket{x}{x} = 1, \\braket{y}{y} = 1
-\\right\\}. \\\]
+Let ``A`` be an ``d \times d`` matrix. The q-numerical range of ``A``
+is the set: \\\[ W_q(A) = \left\\{ z \in \mathbb{C}: z =
+\bra{x}A\ket{y}, \braket{x}{y} = q, \ket{x} \in \mathbb{C}^d,
+\ket{y} \in \mathbb{C}^d, \braket{x}{x} = 1, \braket{y}{y} = 1
+\right\\}. \\\]
 
 Properties
 ----------
 
-Properties of \$W_q(A)\$ of a matrix \$A\$ of dimension \$d \\times d\$
+Properties of ``W_q(A)`` of a matrix ``A`` of dimension ``d \times d``
 [li1998q](@cite), [chien2006q](@cite),[chien2002davis](@cite):
 
      - Note that in the case $q=1$ we get back the [[:numerical-range|standard numerical range]];
@@ -26,10 +26,10 @@ Properties of \$W_q(A)\$ of a matrix \$A\$ of dimension \$d \\times d\$
 Example
 -------
 
-The numerical aproximation of \$W\_{13/14}(A)\$, where \$\$ A =
-\\begin{pmatrix} 0&1&1/2\
+The numerical aproximation of ``W\_{13/14}(A)``, where ```` A =
+\begin{pmatrix} 0&1&1/2\
 0&0&1\
-0&0&0 \\end{pmatrix}. \$\$
+0&0&0 \end{pmatrix}. ````
 
 ![](/numerical-range/qnr1.png)
 

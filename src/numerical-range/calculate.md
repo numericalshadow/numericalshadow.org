@@ -65,7 +65,7 @@ if (isset($_POST['calculate']) && $_POST['calculate']=='Calculate') {
     
     if ($success){
       $matrix = $_POST['matrix'];
-      $latex = str_replace('j', '\\mathrm{i}', str_replace('1j', 'j', $latex));
+      $latex = str_replace('j', '\mathrm{i}', str_replace('1j', 'j', $latex));
       $output = ltrim(rtrim($output, ';'));
       $img = shell_exec('/usr/bin/python /home/ubuntu/numericalshadow/calc_range.py "' . $output . '" ' . $keep . ' 2>&1');
       if ($keep === 'false') {
@@ -73,9 +73,9 @@ if (isset($_POST['calculate']) && $_POST['calculate']=='Calculate') {
       }
       echo "<img src='/lib/exe/fetch.php?media=calculate:$img' /><br />";
       echo '<center>Figure: numerical range of matrix</center>';
-      echo '\\begin{pmatrix}';
+      echo '\begin{pmatrix}';
       echo $latex;
-      echo '\\end{pmatrix}';
+      echo '\end{pmatrix}';
       echo '<br />';
     }
   }

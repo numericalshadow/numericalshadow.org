@@ -21,18 +21,18 @@ Generalizations of numerical range
     range](/numerical-range/generalizations/normalized-numerical-range)
 -   [Higher rank numerical
     range](/numerical-range/generalizations/higher-rank-numerical-range)
--   [\$p\$-th matricial
+-   [``p``-th matricial
     range](/numerical-range/generalizations/p-th-matricial-range)
--   [\$(p,k)\$-numerical
+-   [``(p,k)``-numerical
     range](/numerical-range/generalizations/p-k-numerical-range)
--   [Application of higher rank and \$(p,k)\$ numerical
+-   [Application of higher rank and ``(p,k)`` numerical
     range](/numerical-range/generalizations/application-of-higher-rank-and-p-k-numerical-range)
 -   [k-numerical
     range](/numerical-range/generalizations/k-numerical-range)
 -   [q-numerical
     range](/numerical-range/generalizations/q-numerical-range)
--   [Numerical range of \$A\$ with respect to
-    \$B\$](/numerical-range/generalizations/numerical-range-of-a-with-respect-to-b)
+-   [Numerical range of ``A`` with respect to
+    ``B``](/numerical-range/generalizations/numerical-range-of-a-with-respect-to-b)
 -   [Maximal numerical
     range](/numerical-range/generalizations/maximal-numerical-range)
 -   [Essential numerical
