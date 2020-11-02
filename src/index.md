@@ -10,7 +10,7 @@ of matrix
 1&1&1&1\\
 0&i&1&1\\
 0&0&-1&1\\
-0&0&0&-i
+0&0&0&-\ii
 \end{pmatrix}
 ``` 
 is forming an image of ``\mathbb{R}P^1 \times \mathbb{R}P^1``. 
