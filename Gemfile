@@ -18,6 +18,7 @@ group :jekyll_plugins do
   gem 'jekyll-scholar'
   gem "jekyll-paginate"
   gem "github-pages"
+  gem "jekyll-latex"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
