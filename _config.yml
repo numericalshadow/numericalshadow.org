@@ -28,7 +28,8 @@ scholar:
   source:	./_bibliography
   bibliography:	references.bib
 
-theme: jekyll-theme-cayman
+remote_theme: pmarsceill/just-the-docs
+color_scheme: dark
 
 domain: iitis.github.io
 url: https://iitis.github.io
