@@ -12,15 +12,17 @@ permalink: /
 Example of a [product numericalshadow](numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
 [restricted to real states](numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
 of matrix
-```math
+
+$$
 \begin{pmatrix}
 1&1&1&1\\
 0&i&1&1\\
 0&0&-1&1\\
 0&0&0&-i
 \end{pmatrix}
-``` 
-is forming an image of ``\mathbb{R}P^1 \times \mathbb{R}P^1``. 
+$$
+
+is forming an image of $\mathbb{R}P^1 \times \mathbb{R}P^1$. 
 
 ## Menu
 
