@@ -20,6 +20,10 @@ paginate:         5
 # Custom vars
 version:          0.0.1
 
+plugins:
+  - jekyll-latex
+  - jekyll-scholar
+
 github:
   repo:           https://github.com/iitis/numericalshadow.org
 
