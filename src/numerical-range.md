@@ -1,3 +1,10 @@
+
+---
+layout: default
+title: Numerical Range
+nav_order: 3
+has_children: true
+---
 Numerical range
 ===============
 
