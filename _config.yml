@@ -21,7 +21,7 @@ paginate:         5
 version:          0.0.1
 
 github:
-  repo:           https://github.com/lpawela/numericalshadow.org
+  repo:           https://github.com/iitis/numericalshadow.org
 
 scholar:
   style: modern-language-association
