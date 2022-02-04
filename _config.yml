@@ -27,3 +27,5 @@ scholar:
   style: modern-language-association
   source:	./_bibliography
   bibliography:	references.bib
+
+theme: jekyll-theme-cayman
