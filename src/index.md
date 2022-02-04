@@ -1,3 +1,10 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Numerical shadows."
+permalink: /
+---
 # Numerical shadow
 
 ![Example of a numerical shadow](assets/logo.png)
