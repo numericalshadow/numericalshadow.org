@@ -38,4 +38,3 @@ color_scheme: dark
 domain: iitis.github.io
 url: https://iitis.github.io
 baseurl: /numericalshadow.org
-exclude: ["src/*"]
