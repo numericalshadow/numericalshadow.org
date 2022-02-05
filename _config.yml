@@ -39,4 +39,4 @@ domain: iitis.github.io
 url: https://iitis.github.io
 baseurl: /numericalshadow.org
 
-exclude: ["src/numerical-range/generalizations/normalized-numerical-range.md"]
+# exclude: ["src/numerical-range/generalizations/normalized-numerical-range.md"]

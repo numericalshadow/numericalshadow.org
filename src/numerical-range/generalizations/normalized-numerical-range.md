@@ -8,7 +8,7 @@ The classical numerical range ``F(A)`` of ``A\in M_n(\mathbb{C})`` is
 by definition the set of values of the corresponding quadratic form
 ``x^*Ax`` on the unit sphere \$S\mathbb{C}^n := \\{x \in
 \mathbb{C}^n : \\\|x \\\|=1 \\}`` of ``\mathbb{C}^n\$. Equivalently,
-\\\[ F(A) =\left\\{{(x^*Ax)}/{\|\|x\|\|^2}\colon
+\\\[ F(A) =\left\\{(x^*Ax)/\|\|x\|\|^2\colon
 x\in\mathbb{C}^n\setminus\\{0\\}\right\\}. \\\] Various
 modifications and generalization of the numerical range have been
 considered in the literature. Our paper is concerned with the so called
