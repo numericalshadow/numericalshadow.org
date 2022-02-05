@@ -1,3 +1,10 @@
+---
+layout: default
+title: Properties
+nav_order: 2
+parent: Numerical Range
+---
+
 Properties of numerical range
 =============================
 
