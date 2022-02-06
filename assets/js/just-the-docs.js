@@ -53,7 +53,7 @@ function initNav() {
 
 function initSearch() {
   var request = new XMLHttpRequest();
-  request.open('GET', 'http://0.0.0.0:4000/numericalshadow.org/assets/js/search-data.json', true);
+  request.open('GET', 'https://iitis.github.io/numericalshadow.org/assets/js/search-data.json', true);
 
   request.onload = function(){
     if (request.status >= 200 && request.status < 400) {
@@ -430,7 +430,7 @@ jtd.getTheme = function() {
 
 jtd.setTheme = function(theme) {
   var cssFile = document.querySelector('[rel="stylesheet"]');
-  cssFile.setAttribute('href', 'http://0.0.0.0:4000/numericalshadow.org/assets/css/just-the-docs-' + theme + '.css');
+  cssFile.setAttribute('href', 'https://iitis.github.io/numericalshadow.org/assets/css/just-the-docs-' + theme + '.css');
 }
 
 // Document ready
