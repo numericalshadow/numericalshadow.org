@@ -4,7 +4,31 @@
 <script>
 MathJax = {
   tex: {
-    inlineMath: [['$', '$'], ['\\(', '\\)']]
+    inlineMath: [['$', '$'], ['\\(', '\\)']],
+    displayMath: [["$$","$$"], ["\\[","\\]"]],
+    Macros: {
+
+      bra: ['{\\langle #1|}',1],
+
+      ket: ['{| #1\\rangle}',1],
+
+      ketbra: ['{\left| #1 \\rangle \\langle #2 \right|}',2],
+
+      braket: ['{\\langle #1|#2\\rangle}',2],
+
+      Tr: ['\\mathrm{Tr}',0],
+
+      tr: ['\\Tr',0],
+
+      ee: ['\\mathrm{e}'],
+
+      ii: ['\\mathrm{i}'],
+
+      dd: ['\\mathrm{d}'],
+
+      1:  ['{\\mathbb{1}}']
+
+    }
   }
 };
 </script>
