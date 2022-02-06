@@ -1,4 +1,4 @@
 # Animations
 
   - [Numerical range and spectrum of random Ginibre
-    matrix](animations/ginibre/)
+    matrix](/numerical-range/animations/ginibre/)
