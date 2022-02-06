@@ -13,6 +13,7 @@ permalink: /
 
 Example of a [product numericalshadow](wiki/numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
 [restricted to real states](wiki/numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
+
 of matrix
 
 $$
