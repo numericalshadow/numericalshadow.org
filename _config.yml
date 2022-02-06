@@ -11,6 +11,7 @@ title:            numericalshadow.org
 tagline:          ''
 description:      ''
 baseurl:          /
+repository:        iitis/numericalshadow.org
 
 author:
   name:           'Lukasz Pawela'
@@ -39,4 +40,4 @@ domain: iitis.github.io
 url: https://iitis.github.io
 baseurl: /numericalshadow.org
 
-# exclude: ["src/numerical-range/generalizations/normalized-numerical-range.md"]
+exclude: ["docker-compose.yml"]
