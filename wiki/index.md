@@ -8,11 +8,11 @@ permalink: /
 # Numerical shadow
 
 <p align="center">
-<img src="src/assets/logo.png" />
+<img src="wiki/assets/logo.png" />
 </p>
 
-Example of a [product numericalshadow](src/numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
-[restricted to real states](src/numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
+Example of a [product numericalshadow](wiki/numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
+[restricted to real states](wiki/numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
 of matrix
 
 $$
