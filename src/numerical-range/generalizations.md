@@ -1,39 +1,38 @@
-Generalizations of numerical range
-==================================
+# Generalizations of numerical range
 
--   [Restricted numerical
+  - [Restricted numerical
     range](/numerical-range/generalizations/restricted-numerical-range)
-    -   [Real numerical
+      - [Real numerical
         range](/numerical-range/generalizations/restricted-numerical-range/real-numerical-range)
-    -   [Product numerical
+      - [Product numerical
         range](/numerical-range/generalizations/restricted-numerical-range/product-numerical-range)
-    -   [Separable numerical
+      - [Separable numerical
         range](/numerical-range/generalizations/restricted-numerical-range/separable-numerical-range)
-    -   [Maximally entangled numerical
+      - [Maximally entangled numerical
         range](/numerical-range/generalizations/restricted-numerical-range/maximally-entangled-numerical-range)
-    -   [Coherent numerical
+      - [Coherent numerical
         range](/numerical-range/generalizations/restricted-numerical-range/coherent-numerical-range)
--   [Quaternionic numerical
+  - [Quaternionic numerical
     range](/numerical-range/generalizations/quaternionic-numerical-range)
--   [C-numerical
+  - [C-numerical
     range](/numerical-range/generalizations/c-numerical-range)
--   [Normalized numerical
+  - [Normalized numerical
     range](/numerical-range/generalizations/normalized-numerical-range)
--   [Higher rank numerical
+  - [Higher rank numerical
     range](/numerical-range/generalizations/higher-rank-numerical-range)
--   [``p``-th matricial
+  - [`p`-th matricial
     range](/numerical-range/generalizations/p-th-matricial-range)
--   [``(p,k)``-numerical
+  - [`(p,k)`-numerical
     range](/numerical-range/generalizations/p-k-numerical-range)
--   [Application of higher rank and ``(p,k)`` numerical
+  - [Application of higher rank and `(p,k)` numerical
     range](/numerical-range/generalizations/application-of-higher-rank-and-p-k-numerical-range)
--   [k-numerical
+  - [k-numerical
     range](/numerical-range/generalizations/k-numerical-range)
--   [q-numerical
+  - [q-numerical
     range](/numerical-range/generalizations/q-numerical-range)
--   [Numerical range of ``A`` with respect to
-    ``B``](/numerical-range/generalizations/numerical-range-of-a-with-respect-to-b)
--   [Maximal numerical
+  - [Numerical range of `A` with respect to
+    `B`](/numerical-range/generalizations/numerical-range-of-a-with-respect-to-b)
+  - [Maximal numerical
     range](/numerical-range/generalizations/maximal-numerical-range)
--   [Essential numerical
+  - [Essential numerical
     range](/numerical-range/generalizations/essential-numerical-range)

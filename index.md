@@ -1,26 +1,40 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Numerical shadows."
+permalink: /
+---
 # Numerical shadow
 
-![Example of a numerical shadow](assets/logo.png)
+<p align="center">
+<img src="src/assets/logo.png" />
+</p>
 
-Example of a [product numericalshadow](numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
-[restricted to real states](numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
+Example of a [product numericalshadow](src/numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
+[restricted to real states](src/numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
 of matrix
-```math
+
+$$
 \begin{pmatrix}
 1&1&1&1\\
 0&i&1&1\\
 0&0&-1&1\\
 0&0&0&-\ii
 \end{pmatrix}
-``` 
-is forming an image of ``\mathbb{R}P^1 \times \mathbb{R}P^1``. 
+$$
+
+is forming an image of $\mathbb{R}P^1 \times \mathbb{R}P^1$.
 
 ## Menu
 
-```@contents
-Pages = ["numerical-range.md", "numerical-shadow.md", "numerical-range/calculate.md", "software.md", "literature.md", "acknowledgements.md", "contact.md"]
-Depth = 2
-```
+- [Numerical range](src/numerical-range)
+- [Numerical shadow](src/numerical-shadow)
+- [Calculate numerical range](src/numerical-range/calculate)
+- [Software](src/software)
+- [Literature](src/literature)
+- [Acknowledgements](src/acknowledgements)
+- [Contact](src/contact)
 
 ## Page created by
 * [Łukasz Pawela](https://www.iitis.pl/en/person/lpawela)

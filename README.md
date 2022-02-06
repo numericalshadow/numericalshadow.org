@@ -1,3 +1,2 @@
-# numericalshadow.org
-
-This repo contains the website `numericalshadow.org`.
+# NumericalShadow
+Repo containing the website [numericalshadow.org](numericalshadow.org).

@@ -1,4 +1,2 @@
 # Literature
-
-```@bibliography	
-```
+{% bibliography %}
