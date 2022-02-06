@@ -7,7 +7,7 @@ permalink: /
 ---
 # Numerical shadow
 
-![Example of a numerical shadow](assets/logo.png)
+![Example of a numerical shadow](src/assets/logo.png)
 
 Example of a [product numericalshadow](numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
 [restricted to real states](numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
@@ -22,14 +22,17 @@ $$
 \end{pmatrix}
 $$
 
-is forming an image of $\mathbb{R}P^1 \times \mathbb{R}P^1$. 
+is forming an image of $\mathbb{R}P^1 \times \mathbb{R}P^1$.
 
 ## Menu
 
-```@contents
-Pages = ["numerical-range.md", "numerical-shadow.md", "numerical-range/calculate.md", "software.md", "literature.md", "acknowledgements.md", "contact.md"]
-Depth = 2
-```
+- [Numerical range](src/numerical-range)
+- [Numerical shadow](src/numerical-shadow)
+- [Calculate numerical range](src/numerical-range/calculate)
+- [Software](src/software)
+- [Literature](src/literature)
+- [Acknowledgements](src/acknowledgements)
+- [Contact](src/contact)
 
 ## Page created by
 * [Łukasz Pawela](https://www.iitis.pl/en/person/lpawela)
