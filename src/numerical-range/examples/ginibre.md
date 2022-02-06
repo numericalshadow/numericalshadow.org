@@ -42,20 +42,18 @@ Diagonal unitary matrices `U_d` of order `d` with entries `U_{kl}=\exp(i
 \phi_k) \delta_{kl}`, where `\phi_k` are independent uniformly
 distributed on `\[0, 2 \pi)` real random variables.
 
-Examples: \`\`\`\` G\_4 = \[
+Examples: $$ G\_4 = \[
 
 \], \\ T\_4 = \[
 
 \], \\ D\_4 = \[\\begin{array}{cccc}
 
-``` 
                   \lambda_1 & 0  &   0  &   0 \\
                   0  & \lambda_2 &   0  &   0 \\
                   0  &  0  &  \lambda_3 &   0 \\
                   0  &  0  &   0  &  \lambda_4 \\
-```
 
-\\end{array}\] .  \`\`\`\`
+\\end{array}\] .  $$
 
 ### Matrices drawn from Ginibre ensemble
 

@@ -6,7 +6,7 @@ Let `A` be an `d \times d` matrix and `(c_1, c_2, \ldots, c_d)` be a
 real d-tuple. The `c`-numerical range of `A` is the set `W_c(A) =
 \left\\{ \sum_{j=1}^d c_j \bra{x_j} A \ket{x_j}: \\{\ket{x_i}\\}_{i=1}^d
 \mathrm{\\;forms\\; an\\; orthonormal\\; basis\\; of\\;} \mathbb{C}^d
-\right\\}.` Let `C=\mathrm{\\;diag}(c_1, c_2, \ldots, c_d)`.  
+\right\\}.` Let `C=\mathrm{\\;diag}(c_1, c_2, \ldots, c_d)`.
 Then `\mu \in W_c(A) \iff \mu = \tr(CU^\dagger AU)` for some unitary
 matrix `U`. This fact motivates to define `C`-numerical range by `W_C(A)
 = \left\\{ \tr(CU^\dagger AU): \mathrm{ \\;U \\; unitary\\; }\right\\}`
@@ -38,13 +38,12 @@ Properties of `W_C(A)` of a matrix `A` of dimension `d \times d`:
 Convexity of `W_c(A)` and `W_C(A)` of a matrix `A` of dimension `d
 \times d`:
 
-``` 
+
  - $W_c(A)$ is a convex set (Westwick theorem):  [( :westwick1975theorem )]
  - $W_C(A)$ is a convex set if one of the following holds: [( :li1994c )]
    * there exist $\mu$, $\eta \in \mathbb{C}$ with $\mu \neq 0$ such that $\mu C + \eta \1$ is hermitian;
    * there exist $\mu \in \mathbb{C}$ such that $C - \mu \1$ is unitarity similar to $(C_{ij})_{1 \le i,j \le d}$ in block form, where $C_{ii}$ are square matrices and $C_{ij} = 0$ if $ i \neq j+1$;
-   * there exist $\mu \in \mathbb{C}$ such that $C - \mu \1$ has rank one. 
-```
+   * there exist $\mu \in \mathbb{C}$ such that $C - \mu \1$ has rank one.
 
 ## Generalization
 
@@ -78,7 +77,7 @@ by `C`.
 #### Definition
 
 Let `p,q\in \[1,\infty\]` be conjugate. Then for $C
-B<sup>p(H)`and`AB</sup>q(H)$, we define the  of `T` to be 
+B<sup>p(H)`and`AB</sup>q(H)$, we define the  of `T` to be
 
 The properties of `C`-numerical range in infinite-dimensional vector
 space for Schatten-class operator we can find in [dirr2018c](@cite).

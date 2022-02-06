@@ -21,7 +21,6 @@ For any `A, B` of dimension `n \times m`, the following hold:
     unitary matrices `U` of dimension `n \times n` and `V` of dimension
     `m \times m` we have
 
-<!-- end list -->
 
 $$
 
@@ -31,8 +30,6 @@ $$
 
   - If the norm `\|\| \cdot \|\|` is invariant under the conjugate
     transpose operation, then
-
-<!-- end list -->
 
 $$
 
@@ -95,7 +92,6 @@ vectors of`<sup>{m}`and`</sup>{n}\`\`, respectively.
     M_{m,n}`
 
   -
-<!-- end list -->
 
 $$
 
@@ -103,16 +99,12 @@ $$
 
  $$
 
-  - \`\`\`\`(A\_{1})w\_{h}(A)w(A)  H=\\begin{bmatrix}
+  - $$ (A\_{1})w\_{h}(A)w(A)  H=\\begin{bmatrix}
 
-<!-- -->
-
-```
                              I_{n} \\
                              0 \\
                            \end{bmatrix}$$
-```
-
+$$
 #### Proposition
 
 Let `A\in M_{m,n}`, `m\>n` and `\lambda_{0} (\neq 0)` be sharp point of
