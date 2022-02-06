@@ -1,3 +1,10 @@
+---
+layout: default
+title: Properties
+nav_order: 2
+parent: Numerical Range
+---
+
 # Properties of numerical range
 
 Properties of [numerical range](/numerical-range/) `W(A)` of a matrix
@@ -29,8 +36,8 @@ Properties of [numerical range](/numerical-range/) `W(A)` of a matrix
 8.  if `N=4`:
     1.  for \`\`\`\` A = \[ \\begin{matrix}
 
-\\1 & C  
-D & \\1  
+\\1 & C
+D & \\1
 \\end{matrix} \] \`\`\`\` the numerical range is the convex hull of two
 non-concentric ellipses [arXiv200900272G](@cite),
 
