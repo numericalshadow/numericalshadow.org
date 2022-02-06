@@ -7,10 +7,12 @@ permalink: /
 ---
 # Numerical shadow
 
-![Example of a numerical shadow](src/assets/logo.png)
+<p align="center">
+<img src="src/assets/logo.png" />
+</p>
 
-Example of a [product numericalshadow](numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
-[restricted to real states](numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
+Example of a [product numericalshadow](src/numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
+[restricted to real states](src/numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
 of matrix
 
 $$
