@@ -42,9 +42,11 @@ case, when `A_i=A_i^\dagger` [cao2020higher](@cite).
 
 Assume that `k\>1`. `(A_1,\ldots, A_m) \subset H_n` and it holds that
 
-``` math
+$$
+
  n\geq(m + 1)[^1].
-```
+
+ $$
 
 Then `\widetilde{\Lambda}_{p,k}(A_1,\ldots,A_m) \not= \emptyset.`
 

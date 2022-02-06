@@ -4,11 +4,13 @@
 
 A W-state of `d` qubits is definied as
 
-``` math
+$$
+
 \ket{\mathrm{W}} =
 \frac{1}{\sqrt{d}} \left( \ket{10\ldots 0} + \ket{01\ldots 0} +
 \ldots + \ket{00\ldots 1} \right).
-```
+
+ $$
 
 ## Properties
 

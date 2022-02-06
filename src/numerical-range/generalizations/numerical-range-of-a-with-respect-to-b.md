@@ -23,18 +23,22 @@ For any `A, B` of dimension `n \times m`, the following hold:
 
 <!-- end list -->
 
-``` math
-  w_{\|\|\cdot\|\|}(UAV,UBV) = w_{\|\|\cdot\|\|}(A,B). 
-```
+$$
+
+  w_{\|\|\cdot\|\|}(UAV,UBV) = w_{\|\|\cdot\|\|}(A,B).
+
+ $$
 
   - If the norm `\|\| \cdot \|\|` is invariant under the conjugate
     transpose operation, then
 
 <!-- end list -->
 
-``` math
-  w_{\|\|\cdot\|\|}(A^*,B^*) = w_{\|\|\cdot\|\|}(A,B). 
-```
+$$
+
+  w_{\|\|\cdot\|\|}(A^*,B^*) = w_{\|\|\cdot\|\|}(A,B).
+
+ $$
 
   - For any `A, B` of dimension `n \times m` with `\|\|B\|\|=1`, it
     holds that
@@ -54,8 +58,8 @@ For any `A, B` of dimension `n \times m`, the following hold:
 ## Special case for square matrices
 
 Let `A` be an `N \times M` matrix, with `N \> M` given by
-$A=\\begin{pmatrix}A\_1  
-A\_2 \\end{pmatrix}`and let`\\1\_{N,M} = \\begin{pmatrix}\\1\_M  
+$A=\\begin{pmatrix}A\_1
+A\_2 \\end{pmatrix}`and let`\\1\_{N,M} = \\begin{pmatrix}\\1\_M
 0\\end{pmatrix}`, where`\\1\_M`denotes an`M M$ identity matrix. The
 numerical range of `A` is given by \\\[ w\_{\\|\\|*}(A; *{N,M}) =
 W(A\_1), \\\] where `W(A_1)` denotes the standard numerical range.
@@ -65,7 +69,7 @@ W(A\_1), \\\] where `W(A_1)` denotes the standard numerical range.
 Assume that `m \ge n`. Let `A` be a `m\times n` matrix and let `H` be
 `m\times n` isometry matrix. We present three definitions
 [aretaki2009investigating](@cite) of numerical ranges for rectangular
-matrices. 
+matrices.
 
 ## Properties
 
@@ -78,7 +82,7 @@ Let `A` be a `m \times n` matrix. Then, the following hold
     = 1 \\}`
   - \`\`\`\`w(A)=(0,\_{
 
-} \\begin{bmatrix} *{i}A*{j}  
+} \\begin{bmatrix} *{i}A*{j}
 \\end{bmatrix}*{i,j=1}^{l,k} *{2}),\`\``where`l, k`are integers less
 than`m, n`, respectively and \$\\{ \ket{\xi}_{1},\dots,\ket{\xi}_{l}
 \\}` and `\\{ \ket{\eta}_{1},\ldots, \ket{\eta}_{k}\\}\$ are orthonormal
@@ -90,18 +94,20 @@ vectors of`<sup>{m}`and`</sup>{n}\`\`, respectively.
   - `w_{l}(A)\subseteq w_{h}(A) \mbox{ for every isometry } H\in
     M_{m,n}`
 
-  - 
+  -
 <!-- end list -->
 
-``` math
+$$
+
  w(A)=\bigcup_{H}{w_{l}(A)}=\bigcup_{H}{w_{h}(A)}
-```
+
+ $$
 
   - \`\`\`\`(A\_{1})w\_{h}(A)w(A)  H=\\begin{bmatrix}
 
 <!-- -->
 
-``` 
+```
                              I_{n} \\
                              0 \\
                            \end{bmatrix}$$

@@ -5,9 +5,11 @@
 
 <!-- end list -->
 
-``` math
+$$
+
 \int_{W(A)} P_A(z) d^2 z =1.
-```
+
+ $$
 
 2.  The (numerical) shadow is unitarily invariant,
     `P_A(z)=P_{UAU^*}(z)`. This is a consequence of the fact that the
@@ -25,9 +27,11 @@
 
 <!-- end list -->
 
-``` math
+$$
+
 P_{A \otimes B}(z)=P_{B \otimes A} (z).
-```
+
+ $$
 
 To show this property define a unitary swap operator `S` which acts on a
 composite Hilbert space and interchanges the order in the tensor
