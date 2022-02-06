@@ -1,5 +1,5 @@
 # Calculate numerical range
-
+THIS IS A MESS
 \` if
 (\!isset(\(_POST['calculate'])) {  echo '<span style="color: red">ATTENTION: The imaginary unit should be denoted by "j"!</span>';  }  echo '<form method="post" action="/numerical-range:calculate">';  echo '<label for="selectsize">Select size of the matrix: </label>';  echo '<select name="selectsize" id="selectsize">';  for (\)i=2;\(i<=4;\)i++)
 { if (isset($\_POST\[‘selectsize’\]) && \(_POST['selectsize']==\)i) {
