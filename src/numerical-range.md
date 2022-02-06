@@ -8,7 +8,7 @@ subset of the complex plane: `W(A)=\\{ z \in \mathbb{C}: z=\bra{\psi}
 A\ket{\psi}, \\ \ket{\psi} \in {\mathbb{C}}^d, \\
 \braket{\psi}{\psi}=1\\}.` Following a common convention we denote here
 the numerical range by `W(X)`, which goes back to the German term
-"Wertevorrat" originally used by Hausdorff
+“Wertevorrat” originally used by Hausdorff
 [hausdorff1919wertvorrat](@cite).
 
 ## Properties and examples

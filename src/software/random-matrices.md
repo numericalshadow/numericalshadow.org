@@ -1,7 +1,6 @@
-Generation of random unitary matrices
-=====================================
+# Generation of random unitary matrices
 
-```python
+``` python
 from scipy import *
 def haar_measure(n):
   "A Random matrix distributed with Haar measure"
@@ -13,5 +12,4 @@ def haar_measure(n):
   return q
 ```
 
-Generation of random quantum states
-===================================
+# Generation of random quantum states

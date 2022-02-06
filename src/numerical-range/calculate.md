@@ -1,68 +1,50 @@
-Calculate numerical range
-=========================
+# Calculate numerical range
 
-`
-  if (!isset($_POST['calculate'])) {
-    echo '<span style="color: red">ATTENTION: The imaginary unit should be denoted by "j"!</span>';
-  }
-  echo '<form method="post" action="/numerical-range:calculate">';
-    echo '<label for="selectsize">Select size of the matrix: </label>';
-    echo '<select name="selectsize" id="selectsize">';
-    for ($i=2;$i<=4;$i++) {
-      if (isset($_POST['selectsize']) && $_POST['selectsize']==$i) {
-        echo '<option value="' . $i . '" selected>' . $i . '</option>';
-      }
-      else {
-        echo '<option value="' . $i . '">' . $i . '</option>';
-      }
-    }
-    echo '</select>';
-    echo '<div id="matrix">';
-    echo '</div>';
-    echo '<label for="keep_aspect">Keep aspect ratio</label>';
-    if (isset($_POST['keep_aspect']) && $_POST['keep_aspect']=='true') {
-      echo '<input type="checkbox" name="keep_aspect" id="keep_aspect" value="true" checked/><br />';
-    }
-    else {
-      echo '<input type="checkbox" name="keep_aspect" id="keep_aspect" value="true"/><br />';
-    }
-    echo '<input type="submit" value="Calculate" name="calculate" /><br />';
-  echo '</form>';
+\` if
+(\!isset(\(_POST['calculate'])) {  echo '<span style="color: red">ATTENTION: The imaginary unit should be denoted by "j"!</span>';  }  echo '<form method="post" action="/numerical-range:calculate">';  echo '<label for="selectsize">Select size of the matrix: </label>';  echo '<select name="selectsize" id="selectsize">';  for (\)i=2;\(i<=4;\)i++)
+{ if (isset($\_POST\[‘selectsize’\]) && \(_POST['selectsize']==\)i) {
+echo ‘<option value="' . $i . '" selected>’ . $i . ‘</option>’; } else {
+echo ‘<option value="' . $i . '">’ .
+\(i . '</option>';  }  }  echo '</select>';  echo '<div id="matrix">';  echo '</div>';  echo '<label for="keep_aspect">Keep aspect ratio</label>';  if (isset(\)\_POST\[‘keep\_aspect’\])
+&& $\_POST\[‘keep\_aspect’\]==‘true’) { echo
+‘<input type="checkbox" name="keep_aspect" id="keep_aspect" value="true" checked/><br />’;
+} else { echo
+‘<input type="checkbox" name="keep_aspect" id="keep_aspect" value="true"/><br />’;
+} echo
+‘<input type="submit" value="Calculate" name="calculate" /><br />’;
+echo ’
 
+</form>
 
-if (isset($_POST['calculate']) && $_POST['calculate']=='Calculate') {
-  $size = (int) $_POST['selectsize'];
-  if ($size != 2 && $size !=3 && $size != 4) {
-    echo "Wrong size of input matrix<br />";
-  }
-  else {
-    $keep = ($_POST['keep_aspect'] === 'true')? 'true' : 'false';
-    $output = '';
-    $latex = '';
-    $success = 1;
-    echo '<form>';
-    for ($i=0; $i < $size; $i++) {
-      for ($j=0; $j < $size; $j++) {
-        echo '<input id="old_matrix_' . $i . '_' . $j . '" type="hidden" value="' . $_POST['matrix'][$i][$j] . '" />';
-        if (!preg_match("/(-?\s*\d\s*[\+-]\s*\dj\s*)|(-?\dj?)/", $_POST['matrix'][$i][$j]) || $_POST['matrix'][$i][$j]=='j') {
-          echo "Wrong value for element $i, $j: " . $_POST['matrix'][$i][$j] . "<br />";
-          $success = 0;
-        }
-        else {
-          $output .= " " . preg_replace('/\s*/', '', $_POST['matrix'][$i][$j]);
-          if ($_POST['matrix'][$i][$j] === '0+0j') { $latex_concat='0'; }
-          elseif ($_POST['matrix'][$i][$j] === '0j') {$latex_concat='0';}
-          elseif (preg_match('/0\+\dj/', $_POST['matrix'][$i][$j])) {$latex_concat = substr($_POST['matrix'][$i][$j], 2);}
-          elseif (preg_match('/\d\+0j/', $_POST['matrix'][$i][$j])) {$latex_concat = substr($_POST['matrix'][$i][$j], 0, -3);}
-          else {$latex_concat = $_POST['matrix'][$i][$j];}
-          $latex .= $latex_concat .'&';
-        }
-      }
-      $latex = rtrim($latex, '&') . '\\\\';
-      $output .= ";";
-    }
-    echo '</form>';
-    
+’;
+
+if (isset($\_POST\[‘calculate’\]) &&
+$\_POST\[‘calculate’\]==‘Calculate’) { $size = (int)
+\(_POST['selectsize'];  if (\)size \!= 2 && $size \!=3 && $size \!= 4) {
+echo “Wrong size of input matrix<br />”; } else {
+\(keep = (\)\_POST\[‘keep\_aspect’\] === ‘true’)? ‘true’ : ‘false’;
+$output = ’‘; $latex =’‘; \(success = 1;  echo '<form>';  for (\)i=0; $i
+\< $size; \(i++) {  for (\)j=0; $j \< $size; $j++) {
+echo’<input id="old_matrix_' . $i . '_' . $j . '" type="hidden" value="' . $_POST['matrix'][$i][$j] . '" />‘;
+if (\!preg\_match(“/(-?)|(-??)/”, \(_POST['matrix'][\)i\]\[$j\]) ||
+\(_POST['matrix'][\)i\]\[$j\]==’j’) { echo “Wrong value for element $i,
+$j:” . \(_POST['matrix'][\)i\]\[$j\] . “<br />”; $success = 0; } else {
+$output .= " " . preg\_replace(‘//’, ’‘, \(_POST['matrix'][\)i\]\[$j\]);
+if (\(_POST['matrix'][\)i\]\[$j\] === ’0+0j’) {
+\(latex_concat='0'; }  elseif (\)\_POST\[‘matrix’\]\[$i\]\[$j\] ===
+‘0j’) {$latex\_concat=‘0’;} elseif (preg\_match(‘/0+/’,
+\(_POST['matrix'][\)i\]\[$j\]))
+{\(latex_concat = substr(\)\_POST\[‘matrix’\]\[$i\]\[$j\], 2);} elseif
+(preg\_match(‘/0j/’, \(_POST['matrix'][\)i\]\[$j\]))
+{\(latex_concat = substr(\)\_POST\[‘matrix’\]\[$i\]\[$j\], 0, -3);} else
+{$latex\_concat = \(_POST['matrix'][\)i\]\[$j\];} $latex .=
+$latex\_concat .’&‘; } } \(latex = rtrim(\)latex,’&‘) .’\\\\‘; $output
+.= “;”; } echo’
+
+</form>
+
+’;
+
     if ($success){
       $matrix = $_POST['matrix'];
       $latex = str_replace('j', '\mathrm{i}', str_replace('1j', 'j', $latex));
@@ -78,9 +60,9 @@ if (isset($_POST['calculate']) && $_POST['calculate']=='Calculate') {
       echo '\end{pmatrix}';
       echo '<br />';
     }
-  }
-}
-`{.php} `
+
+} } `{.php}`
+
 <script type="text/javascript">
 
   jQuery("#selectsize").change(function() {
@@ -98,4 +80,5 @@ if (isset($_POST['calculate']) && $_POST['calculate']=='Calculate') {
     }
   }).change();
 </script>
-`{=html}
+
+\`{=html}

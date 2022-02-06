@@ -1,5 +1,4 @@
-Animations
-==========
+# Animations
 
--   [Numerical range and spectrum of random Ginibre
+  - [Numerical range and spectrum of random Ginibre
     matrix](/numerical-range/animations/ginibre)

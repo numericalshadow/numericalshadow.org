@@ -1,4 +1,4 @@
 # Literature
 
-```@bibliography
+``` @bibliography
 ```

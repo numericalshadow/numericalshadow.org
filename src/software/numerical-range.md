@@ -1,25 +1,23 @@
-Software
-========
+# Software
 
-Numerical range
----------------
+## Numerical range
 
 ### Matlab / Octave
 
--   [An Effective Algorithm for Computing the Numerical Range by Carl C.
+  - [An Effective Algorithm for Computing the Numerical Range by Carl C.
     Cowen and Elad
     Harel](http://www.math.iupui.edu/~ccowen/Downloads/33NumRange.html)
--   [Field of values and numerical abscissa by Nick Trefethen,
+  - [Field of values and numerical abscissa by Nick Trefethen,
     November](http://www2.maths.ox.ac.uk/chebfun/examples/linalg/html/FieldOfValues.shtml)
 
 ### Mathematica
 
--   [kalvotom user from stackexchange
+  - [kalvotom user from stackexchange
     mathematica](https://mathematica.stackexchange.com/questions/144041/how-to-plot-the-field-of-values-numerical-range-of-a-matrix)
 
 ### Python / Numpy
 
-```python
+``` python
 import numpy as np
 import matplotlib.mlab as mlab
 
@@ -64,7 +62,7 @@ def numerical_range(A,resolution=0.01):
 
 ### Julia
 
-```julia
+``` julia
 using LinearAlgebra
 ##
 function numericalrange(A,resolution=0.01)

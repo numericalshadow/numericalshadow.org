@@ -1,25 +1,22 @@
-Restricted numerical range
-==========================
+# Restricted numerical range
 
-Definition
-----------
+## Definition
 
-Restricted numerical range of an ``d \times d`` matrix ``A`` is defined
-as: ```` W_\mathrm{R}(A) = \left\\{ \mathrm{Tr}A\rho, \\; \rho
-\in \Omega_\mathrm{R} \subset \Omega \right\\} ```` The symbol
-``\Omega_\mathrm{R}`` denotes any arbitrary subset of set ``\Omega``
-of all normalized density matrices of dimension ``d``.
+Restricted numerical range of an `d \times d` matrix `A` is defined as:
+`W_\mathrm{R}(A) = \left\\{ \mathrm{Tr}A\rho, \\; \rho \in
+\Omega_\mathrm{R} \subset \Omega \right\\}` The symbol
+`\Omega_\mathrm{R}` denotes any arbitrary subset of set `\Omega` of all
+normalized density matrices of dimension `d`.
 
-Examples
---------
+## Examples
 
--   [Real numerical
+  - [Real numerical
     range](/numerical-range/generalizations/restricted-numerical-range/real-numerical-range)
--   [Product numerical
+  - [Product numerical
     range](/numerical-range/generalizations/restricted-numerical-range/product-numerical-range)
--   [Separable numerical
+  - [Separable numerical
     range](/numerical-range/generalizations/restricted-numerical-range/separable-numerical-range)
--   [Maximally entangled numerical
+  - [Maximally entangled numerical
     range](/numerical-range/generalizations/restricted-numerical-range/maximally-entangled-numerical-range)
--   [Coherent numerical
+  - [Coherent numerical
     range](/numerical-range/generalizations/restricted-numerical-range/coherent-numerical-range)
