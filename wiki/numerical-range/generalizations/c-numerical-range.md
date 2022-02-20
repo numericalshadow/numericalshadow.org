@@ -1,3 +1,10 @@
+---
+layout: default
+p[arent]: Generalizations of numerical range
+nav_order: 1
+title: $C$-numerical range
+
+---
 # `C`-numerical range
 
 ## Definition

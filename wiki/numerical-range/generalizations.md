@@ -1,3 +1,12 @@
+---
+layout: default
+title: Generalizations of numerical range
+nav_order: 2
+parent: Numerical Range
+has_children: true
+
+---
+
 # Generalizations of numerical range
 
   - [Restricted numerical

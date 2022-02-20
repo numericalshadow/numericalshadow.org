@@ -1,3 +1,9 @@
+---
+layout: default
+title: Calculate numerical range
+nav_order: 4
+parent: Numerical Range
+---
 # Calculate numerical range
 THIS IS A MESS
 \` if

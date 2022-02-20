@@ -1,3 +1,11 @@
+---
+layout: default
+title: Examples of numerical range
+nav_order: 3
+parent: Numerical Range
+has_children: true
+
+---
 # List of example numerical ranges
 
   - [2x2 matrices](/numerical-range/examples/2x2)

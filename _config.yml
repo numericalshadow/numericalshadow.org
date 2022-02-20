@@ -29,9 +29,10 @@ github:
   repo:           https://github.com/iitis/numericalshadow.org
 
 scholar:
-  style: modern-language-association
+  style: ieee
   source:	./_bibliography
   bibliography:	references.bib
+  bibliography_template: bib
 
 remote_theme: pmarsceill/just-the-docs
 color_scheme: dark
