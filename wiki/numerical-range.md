@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Numerical Range
+title: Numerical range
 nav_order: 2
 has_children: true
 ---

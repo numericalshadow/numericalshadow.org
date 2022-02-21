@@ -1,7 +1,8 @@
 ---
 layout: default
-p[arent]: Generalizations of numerical range
-nav_order: 1
+parent: Generalizations of numerical range
+grand_parent: Numerical range
+nav_order: 20
 title: $C$-numerical range
 
 ---

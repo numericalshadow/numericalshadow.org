@@ -2,10 +2,7 @@
 layout: default
 title: Animations
 nav_order: 5
-parent: Numerical Range
+parent: Numerical range
 has_children: true
 ---
 # Animations
-
-  - [Numerical range and spectrum of random Ginibre
-    matrix](ginibre)

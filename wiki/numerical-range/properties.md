@@ -2,7 +2,7 @@
 layout: default
 title: Properties of numerical range
 nav_order: 1
-parent: Numerical Range
+parent: Numerical range
 ---
 
 # Properties of numerical range

@@ -2,7 +2,7 @@
 layout: default
 title: Generalizations of numerical range
 nav_order: 2
-parent: Numerical Range
+parent: Numerical range
 has_children: true
 
 ---

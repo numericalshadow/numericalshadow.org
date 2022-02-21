@@ -34,8 +34,17 @@ scholar:
   bibliography:	references.bib
   bibliography_template: bib
 
-remote_theme: pmarsceill/just-the-docs
+# remote_theme: pmarsceill/just-the-docs
+# remote_theme: iitis/just-the-docs
+remote_theme: thealjey/just-the-docs
 color_scheme: dark
+logo: /wiki/assets/logo.png
+search_enabled: false
+aux_links:
+  "numericalshadow.org on GitHub":
+    - "//github.com/iitis/numericalshadow.org"
+
+aux_links_new_tab: true
 
 domain: iitis.github.io
 url: https://iitis.github.io

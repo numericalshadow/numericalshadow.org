@@ -1,3 +1,10 @@
+---
+layout: default
+parent: Restricted numerical range
+nav_order: 3
+title: Coherent numerical range
+
+---
 # Coherent numerical range
 
 ## Definition

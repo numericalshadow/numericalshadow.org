@@ -1,3 +1,10 @@
+---
+layout: default
+parent: Generalizations of numerical range
+nav_order: 30
+title: Essential numerical range
+
+---
 # Essential numerical range
 
 The essential numerical range `W_e(T)` was introduced by Stampfli and

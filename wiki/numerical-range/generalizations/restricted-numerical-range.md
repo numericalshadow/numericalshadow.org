@@ -1,3 +1,10 @@
+---
+layout: default
+parent: Generalizations of numerical range
+nav_order: 1
+title: Restricted numerical range
+
+---
 # Restricted numerical range
 
 ## Definition
