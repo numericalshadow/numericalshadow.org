@@ -7,3 +7,4 @@ git add *
 git commit -m 'update built site'
 git push
 git checkout master
+rm .nojekyll
