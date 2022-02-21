@@ -2,7 +2,7 @@
 layout: default
 title: Random matrix software
 nav_order: 2
-permalink: /software/random-matrices
+permalink: /software/random-matrices/
 parent: Software
 ---
 
