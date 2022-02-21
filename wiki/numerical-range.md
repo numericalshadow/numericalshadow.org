@@ -2,7 +2,7 @@
 layout: default
 title: Numerical range
 nav_order: 2
-permalink: numerical-range
+permalink: /numerical-range/
 ---
 
 # Numerical range
