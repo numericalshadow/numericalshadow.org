@@ -1,3 +1,9 @@
+---
+layout: default
+title: Acknowledgements
+nav_order: 9
+permalink: /acknowledgements/
+---
 # Acknowledgements
 
 ## Page created by

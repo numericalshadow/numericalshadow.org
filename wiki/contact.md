@@ -1,3 +1,9 @@
+---
+layout: default
+title: Contact
+nav_order: 10
+permalink: /contact/
+---
 # Contact
 
 If you have any new results and papers on numerical range and numerical

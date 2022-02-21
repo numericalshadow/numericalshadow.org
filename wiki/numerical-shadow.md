@@ -1,3 +1,9 @@
+---
+layout: default
+title: Numerical shadow
+nav_order: 3
+permalink: /numerical-shadow/
+---
 # Numerical shadow
 
 ## Definition

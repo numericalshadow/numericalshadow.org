@@ -1,3 +1,9 @@
+---
+layout: default
+title: Presentations
+nav_order: 6
+permalink: /presentations/
+---
 # Presentations
 
 ## Numerical range

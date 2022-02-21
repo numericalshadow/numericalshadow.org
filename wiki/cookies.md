@@ -1,3 +1,9 @@
+---
+layout: default
+title: Cookie policy
+nav_order: 11
+permalink: /cookies/
+---
 # Cookie policy
 
 A cookie is a string of information that a website stores on a visitor’s

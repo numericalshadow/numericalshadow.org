@@ -1,3 +1,9 @@
+---
+layout: default
+title: External links
+nav_order: 8
+permalink: /links/
+---
 # External links
 
   - [Numerical range on
