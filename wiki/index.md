@@ -8,7 +8,7 @@ permalink: /
 # Numerical shadow
 
 <p align="center">
-<img src="wiki/assets/logo.png" />
+<img src="assets/logo.png" />
 </p>
 
 Example of a [product numericalshadow](wiki/numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
@@ -29,13 +29,13 @@ is forming an image of $\mathbb{R}P^1 \times \mathbb{R}P^1$.
 
 ## Menu
 
-- [Numerical range](src/numerical-range)
-- [Numerical shadow](src/numerical-shadow)
-- [Calculate numerical range](src/numerical-range/calculate)
-- [Software](src/software)
-- [Literature](src/literature)
-- [Acknowledgements](src/acknowledgements)
-- [Contact](src/contact)
+- [Numerical range](numerical-range/)
+- [Numerical shadow](numerical-shadow/)
+- [Calculate numerical range](numerical-range/calculate/)
+- [Software](software/)
+- [Literature](literature/)
+- [Acknowledgements](acknowledgements/)
+- [Contact](contact/)
 
 ## Page created by
 * [Łukasz Pawela](https://www.iitis.pl/en/person/lpawela)
@@ -48,5 +48,5 @@ is forming an image of $\mathbb{R}P^1 \times \mathbb{R}P^1$.
 
 
 ## Support
-* Supported by [Centre for Theoretical Physics, Polish Academy of Sciences](http://www.cft.edu.pl/en/).
+* Supported by [Centre for Theoretical Physics, Polish Academy of Sciences](http://www.cft.edu.pl).
 * Maintained by [Institute of Theoretical and Applied Informatics, Polish Academy of Sciences](http://www.iitis.pl/en/).

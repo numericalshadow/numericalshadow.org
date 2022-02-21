@@ -20,4 +20,4 @@ In the figure red dots indicate spectrum of $ G_d $, gray area is
 numerical range $ W(G_d) $, green circle has radius $ 1 $ outer circle has
 radius $ \sqrt{2} $.
 
-![]({{ "/wiki/assets/animations/animation-ginibre.gif" | relative_url }})
+![]({{ "/assets/animations/animation-ginibre.gif" | relative_url }})

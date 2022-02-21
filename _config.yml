@@ -38,7 +38,7 @@ scholar:
 # remote_theme: iitis/just-the-docs
 remote_theme: thealjey/just-the-docs
 color_scheme: dark
-logo: /wiki/assets/logo.png
+logo: /assets/logo.png
 search_enabled: false
 aux_links:
   "numericalshadow.org on GitHub":
@@ -48,6 +48,6 @@ aux_links_new_tab: true
 
 domain: iitis.github.io
 url: https://iitis.github.io
-baseurl: /numericalshadow.org
+baseurl: /numericalshadow.org/
 
 # exclude: ["docker-compose.yml"]
