@@ -5,4 +5,4 @@ nav_order: 5
 permalink: /literature/
 ---
 # Literature
-{% bibliography %}
+{% bibliography --template bib_full %}

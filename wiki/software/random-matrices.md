@@ -1,3 +1,11 @@
+---
+layout: default
+title: Random matrix software
+nav_order: 2
+permalink: /software/random-matrices
+parent: Software
+---
+
 # Generation of random unitary matrices
 
 ``` python

@@ -1,3 +1,10 @@
+---
+layout: default
+title: Numerical range software
+nav_order: 1
+permalink: /software/numerical-range
+parent: Software
+---
 # Software
 
 ## Numerical range
