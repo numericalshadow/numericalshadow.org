@@ -5,6 +5,6 @@ git checkout gh-pages
 cp -r _site/* . && rm -rf _site/ && touch .nojekyll
 git add *
 git commit -m 'update built site'
-git push
+git push -f
 git checkout master
 rm .nojekyll
