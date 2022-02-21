@@ -1,4 +1,11 @@
-# List of example numerical shadows
+---
+layout: default
+title: Examples of numerical shadow
+parent: Numerical shadow
+nav_order: 1
+permalink: /numerical-shadow/examples/
+---
+# Examples numerical shadows
 
   - [2x2 matrices](/numerical-shadow/examples/2x2)
   - [3x3 matrices](/numerical-shadow/examples/3x3)
