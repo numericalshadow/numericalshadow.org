@@ -3,7 +3,7 @@ layout: default
 parent: Restricted numerical range
 nav_order: 2
 title: Product numerical range
-permalink: /numerical-range/animations/product-numerical-range/
+permalink: /numerical-range/generalizations/restricted-numerical-range/product-numerical-range/
 ---
 # Product numerical range
 

@@ -3,7 +3,7 @@ layout: default
 parent: Restricted numerical range
 nav_order: 4
 title: Maximally entangled numerical range
-permalink: /numerical-range/animations/maximally-entangled-numerical-range/
+permalink: /numerical-range/generalizations/restricted-numerical-range/maximally-entangled-numerical-range/
 ---
 # Maximally entangled numerical range
 

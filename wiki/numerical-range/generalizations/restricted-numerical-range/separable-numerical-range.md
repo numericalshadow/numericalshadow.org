@@ -3,7 +3,7 @@ layout: default
 parent: Restricted numerical range
 nav_order: 3
 title: Separable numerical range
-permalink: /numerical-range/animations/separable-numerical-range/
+permalink: /numerical-range/generalizations/restricted-numerical-range/separable-numerical-range/
 ---
 # Separable numerical range
 

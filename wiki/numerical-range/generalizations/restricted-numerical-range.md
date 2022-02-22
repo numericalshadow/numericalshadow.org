@@ -3,7 +3,7 @@ layout: default
 parent: Generalizations of numerical range
 nav_order: 1
 title: Restricted numerical range
-permalink: /numerical-range/restricted-numerical-range/
+permalink: /numerical-range/generalizations/restricted-numerical-range/
 ---
 # Restricted numerical range
 

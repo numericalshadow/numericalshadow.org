@@ -3,7 +3,7 @@ layout: default
 parent: Restricted numerical range
 nav_order: 1
 title: Real numerical range
-permalink: /numerical-range/animations/real-numerical-range/
+permalink: /numerical-range/generalizations/restricted-numerical-range/real-numerical-range/
 ---
 # Real numerical range
 

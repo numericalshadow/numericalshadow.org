@@ -3,7 +3,7 @@ layout: default
 parent: Restricted numerical range
 nav_order: 5
 title: Coherent numerical range
-permalink: /numerical-range/animations/coherent-numerical-range/
+permalink: /numerical-range/generalizations/restricted-numerical-range/coherent-numerical-range/
 ---
 # Coherent numerical range
 
