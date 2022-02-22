@@ -7,7 +7,7 @@ parent: Numerical range
 
 # Properties of numerical range
 
-Properties of [numerical range](/numerical-range/) $ W(A) $ of a matrix
+Properties of [numerical range]({{ "/numerical-range/" | relative_url }}) $ W(A) $ of a matrix
 $ A $ of dimension $ N $ {% cite horn1994topics %},
 {% cite gustafson1997numerical %}:
 
@@ -79,8 +79,8 @@ arising in $n$ dimensions.
 
 #### Theorem
 
-Let $ A $ be such operator that $ rank(A− \lambda \1)=2 $ for some `\lambda
-\in \mathbb{C}$ . Then  $W(A)$  either is an element of  $\mathcal{F}_3`, or
+Let $ A $ be such operator that $ rank(A− \lambda \1)=2 $ for some $\lambda
+\in \mathbb{C}$ . Then  $W(A)$  either is an element of  $\mathcal{F}_3$, or
 the convex hull of two ellipses having a common focus, or has at most
 one flat portion on its boundary.
 
