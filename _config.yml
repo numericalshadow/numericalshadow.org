@@ -10,7 +10,7 @@ permalink:        pretty
 title:            numericalshadow.org
 tagline:          ''
 description:      ''
-baseurl:          /
+baseurl:          /wiki/
 repository:       numericalshadow/numericalshadow.org
 domain:           numericalshadow.org
 url:              https://numericalshadow.org
@@ -27,8 +27,6 @@ plugins:
   - jekyll-latex
   - jekyll-scholar
 
-github:
-  repo:           https://github.com/numericalshadow/numericalshadow.org
 
 scholar:
   style: ieee
