@@ -3,8 +3,7 @@ layout: default
 title: Examples of numerical range
 nav_order: 3
 parent: Numerical range
-has_children: true
-
+permalink: /numerical-range/examples/
 ---
 # List of example numerical ranges
 
