@@ -35,6 +35,10 @@ permalink: /numerical-range/calculate/
 <script type="text/javascript">
 console.log(math.eigs([[1, 2], [3, 4]]));
 console.log(math.eigs([[3, -2], [4, -1]]));
-console.log(math.eigs([[3, -2], [math.complex(4, 2), -1]]));
+const A = [[3, -2], [math.complex(4, 2), -1]];
+const Ah = math.ctranspose(A);
+console.log(math.eigs(A + Ah));
+console.log(math.eigs(A));
+console.log(math.eigs(Ah));
 </script>
 # Calculate numerical range
