@@ -123,11 +123,11 @@ $w_{l}(A)=F(H^{*}A)$.
 #### Futher Generalizations
 
   - [Higher rank numerical range for rectangular
-    matrices](/numerical-range/generalizations/numerical-range-of-a-with-respect-to-b/higher-rank-numerical-range-for-rectangular)
+    matrices]({{ "/numerical-range/generalizations/numerical-range-of-a-with-respect-to-b/higher-rank-numerical-range-for-rectangular" | relative_url }})
 
 #### Examples
 
-  - [Examples](/numerical-range/generalizations/numerical-range-of-a-with-respect-to-b/examples)
+  - [Examples]({{ "/numerical-range/generalizations/numerical-range-of-a-with-respect-to-b/examples" | relative_url }})
 
 # References
 
