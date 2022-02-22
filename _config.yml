@@ -38,7 +38,7 @@ scholar:
 # remote_theme: iitis/just-the-docs
 # remote_theme: thealjey/just-the-docs
 remote_theme: pdmosses/just-the-docs@rec-nav-2
-color_scheme: dark
+color_scheme: light
 logo: /assets/logo.png
 search_enabled: false
 aux_links:
