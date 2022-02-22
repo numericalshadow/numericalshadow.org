@@ -13,4 +13,3 @@ git add *
 git commit -m 'update built site'
 git push -f
 git checkout master
-rm .nojekyll
