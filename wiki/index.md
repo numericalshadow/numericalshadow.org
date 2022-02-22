@@ -11,8 +11,8 @@ permalink: /
 <img src="assets/logo.png" />
 </p>
 
-Example of a [product numericalshadow](wiki/numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow)
-[restricted to real states](wiki/numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow)
+Example of a [product numericalshadow]({{ "/numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow" | relative_url }})
+[restricted to real states]({{ "/numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow" | relative_url }})
 
 of matrix
 
