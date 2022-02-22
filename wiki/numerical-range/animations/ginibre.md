@@ -3,8 +3,7 @@ layout: default
 title: Numerical range and spectrum of random Ginibre matrix
 nav_order: 1
 parent: Animations
-grand_parent: Numerical range
-
+permalink: /numerical-range/animations/ginibre/
 ---
 # Numerical range and spectrum of random Ginibre matrix
 

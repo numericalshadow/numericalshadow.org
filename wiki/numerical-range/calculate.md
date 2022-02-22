@@ -3,6 +3,7 @@ layout: default
 title: Calculate numerical range
 nav_order: 4
 parent: Numerical range
+permalink: /numerical-range/calculate/
 ---
   <script src="https://unpkg.com/mathjs@10.1.1/lib/browser/math.js"></script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>

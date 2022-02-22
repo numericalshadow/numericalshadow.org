@@ -3,6 +3,7 @@ layout: default
 title: Properties of numerical range
 nav_order: 1
 parent: Numerical range
+permalink: /numerical-range/properties/
 ---
 
 # Properties of numerical range
