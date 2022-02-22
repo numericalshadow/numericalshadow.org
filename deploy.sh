@@ -7,7 +7,8 @@ if [[ "$BRANCH" != "gh-pages" ]]; then
   rm -rf _site;
   exit 1;
 fi
-rm * -rf
+git rm * -rf
+git commit -m 'clean branch'
 
 git checkout master
 BRANCH="$(git rev-parse --abbrev-ref HEAD)"
