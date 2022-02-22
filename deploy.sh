@@ -19,7 +19,7 @@ if [[ "$BRANCH" != "master" ]]; then
   exit 1;
 fi
 
-docker-compose run jekyll /bin/bash -c 'JEKYLL_ENV=production jekyll build'
+docker-compose run jekyll /bin/bash -c 'jekyll build'
 git checkout gh-pages
 BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 if [[ "$BRANCH" != "gh-pages" ]]; then
