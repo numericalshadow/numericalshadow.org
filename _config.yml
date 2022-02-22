@@ -47,4 +47,4 @@ aux_links:
 
 aux_links_new_tab: true
 
-# exclude: ["docker-compose.yml"]
+exclude: ["docker-compose.yml", "deploy.sh", "cleanup.py", "old_menu.png"]
