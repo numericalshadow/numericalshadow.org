@@ -9,6 +9,7 @@ if [[ "$BRANCH" != "gh-pages" ]]; then
   exit 1;
 fi
 cp -r _site/* . && rm -rf _site/ && touch .nojekyll
+echo "numericalshadow.org" >> CNAME
 git add *
 git commit -m 'update built site'
 git push -f
