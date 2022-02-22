@@ -3,6 +3,7 @@ layout: default
 title: Generalizations of numerical range
 nav_order: 2
 parent: Numerical range
+permalink: /numerical-range/generalizations/
 ---
 
 # Generalizations of numerical range

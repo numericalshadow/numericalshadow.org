@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Generalizations of numerical range
-nav_order: 1
+nav_order: 2
 title: Quaternionic numerical range
 permalink: /numerical-range/generalizations/quaternionic-numerical-range/
 ---
@@ -16,7 +16,7 @@ form $q = q_{0}+q_{1}i+q_{2}j+q_{3}k$, where $i,j,k$ are quaternion
 units satisfying:  For a given $q \in \mathbb{H}$, we define the real
 part, re$(q):= q\_{0}$and the imaginary part, im $(q)\coloneqq
 q\_{1}i+q\_{2}j+q\_{3}k$. The conjugate and the modulus of $q$
-respectively given by 
+respectively given by
 
 Let us denote the class of all $n\times n$ matrices over $\mathbb{C}$
 and $\mathbb{H}$ by $M_{n}(\mathbb{C})$ and $M_{n}(\mathbb{H})$
@@ -39,7 +39,7 @@ $W_{\mathbb{H}}(A)$, defined as  where $S\_{^{n}}: = \\{X ^{n}:
 \\|X\\|=1\\}$.
 
 \- The quaternionic numerical radius of $A$, denoted by
-${\mathop{w}}_{\mathbb{H}}(A)$, defined as 
+${\mathop{w}}_{\mathbb{H}}(A)$, defined as
 
 \- For each slice $\mathbb{C}_{m}$ of $ \\; (m  )$, we call$W\_{}(A)
 *{m}^{+}$as a$*{m}$- section of $W_{\mathbb{H}}(A)$. In particular, we
@@ -101,7 +101,7 @@ Let $A \in M_{n}(\mathbb{H})$. Then the following are equivalent
 \- $W\_{}(A:) = W\_{}(A) $.
 
 \- For every $X \in S_{\mathbb{H}^{n}}$, there exists a $Y S\_{^{n}}$
-such that 
+such that
 
 ### Theorem
 
