@@ -10,7 +10,7 @@ permalink:        pretty
 title:            numericalshadow.org
 tagline:          ''
 description:      ''
-baseurl:          /wiki
+baseurl:          /
 repository:       numericalshadow/numericalshadow.org
 domain:           numericalshadow.org
 url:              https://numericalshadow.org
