@@ -5,6 +5,7 @@ git checkout gh-pages
 BRANCH="$(git rev-parse --abbrev-ref HEAD)"
 if [[ "$BRANCH" != "gh-pages" ]]; then
   echo 'Aborting script, not on gh-pages branch';
+  rm -rf _site;
   exit 1;
 fi
 cp -r _site/* . && rm -rf _site/ && touch .nojekyll
