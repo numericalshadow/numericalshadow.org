@@ -7,6 +7,7 @@ if [[ "$BRANCH" != "gh-pages" ]]; then
   rm -rf _site;
   exit 1;
 fi
+rm _site -rf
 git rm * -rf
 git commit -m 'clean branch'
 
