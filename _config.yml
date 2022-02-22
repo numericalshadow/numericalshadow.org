@@ -11,7 +11,7 @@ title:            numericalshadow.org
 tagline:          ''
 description:      ''
 baseurl:          /
-repository:        iitis/numericalshadow.org
+repository:       numericalshadow/numericalshadow.org
 
 author:
   name:           'Lukasz Pawela'
@@ -26,7 +26,7 @@ plugins:
   - jekyll-scholar
 
 github:
-  repo:           https://github.com/iitis/numericalshadow.org
+  repo:           https://github.com/numericalshadow/numericalshadow.org
 
 scholar:
   style: ieee
@@ -43,12 +43,11 @@ logo: /assets/logo.png
 search_enabled: false
 aux_links:
   "numericalshadow.org on GitHub":
-    - "//github.com/iitis/numericalshadow.org"
+    - "//github.com/numericalshadow/numericalshadow.org"
 
 aux_links_new_tab: true
 
-domain: iitis.github.io
-url: https://iitis.github.io
-baseurl: /numericalshadow.org/
+domain: numericalshadow.org
+url: https://numericalshadow.org
 
 # exclude: ["docker-compose.yml"]
