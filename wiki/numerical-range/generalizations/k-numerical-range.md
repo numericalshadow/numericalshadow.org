@@ -1,7 +1,7 @@
 ---
 layout: default
 parent: Generalizations of numerical range
-nav_order: 5
+nav_order: 9
 title:  $k$-numerical range
 permalink: /numerical-range/generalizations/k-numerical-range/
 ---
