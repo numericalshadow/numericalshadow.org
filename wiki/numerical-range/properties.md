@@ -51,10 +51,10 @@ presented in {% cite spitkovsky2015line %}, {% cite chien2015numerical %}.
 For properties of the numerical range in the infinite dimension see
 {% cite lins2018inverse %}, {% cite birbonshi2018note %}.
 
-### Application
+## Application
 
 An example application of numerical range can be found in
-{% cite spitkovsky2018signatures %}:
+{% cite spitkovsky2018signatures %}.
 
 ## Examples
 
@@ -66,16 +66,16 @@ range](/numerical-range/examples).
 #### Definition
 
 We define the Gau–Wu number of a matrix $ A $, denoted $ k(A) $, to be the
-maximum size of an orthonormal set $\\{x\_1,,x\_k\\}  ^n$such that the
-values $A$ lie on $ \partial W(A) $. {% cite gau2013numerical %}
+maximum size of an orthonormal set $\\{x\_1,,x\_k\\}  \subset \mathcal{C}^n$ such that the
+values $\bra{x_j} A \ket{x_j}$ lie on $ \partial W(A) $ {% cite gau2013numerical %}.
 
 The properties of Gau-Wu number was widely studied in
 {% cite camenga2019singularities %}, {% cite camenga2014gau %}.
 
 ## Rank-2 operators
 
-Let $ W(A) $ will be the numerical range of matrix $A  M\_n()$ and let $$
-\_n = \\{ W(A): A  M\_n() \\}$$ be the set of all numerical ranges
+Let $ W(A) $ will be the numerical range of matrix $A  \in M_n(\mathrm{C})$ and let \begin{equation}
+\mathcal{F}_n = \\{ W(A): A \in M_n(\mathrm{C}) \\} \end{equation} be the set of all numerical ranges
 arising in $n$ dimensions.
 
 #### Theorem
