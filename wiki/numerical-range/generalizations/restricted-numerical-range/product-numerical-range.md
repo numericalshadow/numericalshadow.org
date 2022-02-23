@@ -21,7 +21,7 @@ W^\otimes(A)=\left\{z \in \mathbb{C}:\ z=
 A
 \left(
 \ket{\psi} \otimes \ket{\phi}
-\right), 
+\right),
 \ket{\psi}\in\mathbb{C}^{d_1}, \ket{\phi}\in\mathbb{C}^{d_2}\\
 \braket{\psi}{\psi}=1,
 \braket{\phi}{\phi}=1
@@ -31,7 +31,7 @@ $$
 
 
 In general, this definition can be written as: product numerical range
-$W^\otimes(A)$ of a square matrix $A$ of dimension $d = \_{i=1}^K d\_i$
+$W^\otimes(A)$ of a square matrix $A$ of dimension $d = \prod_{i=1}^K d\_i$
 is a subset of the complex plane defined as
 
 $$
@@ -45,9 +45,9 @@ A
 \left(
 \bigotimes_{i=1}^K
 \ket{\psi_i}
-\right), 
+\right),
 \ket{\psi_i}\in\mathbb{C}^{d_i}, \\
-\braket{\psi_i}{\psi_i}=1  
+\braket{\psi_i}{\psi_i}=1
 \text{ for }\ i=1,\ldots,K
 \right\}.
 \end{split}
@@ -60,12 +60,12 @@ $$
 Consider a family of operators with a tensor product structure
 
 $$
-Y(r_1,r_2) = X_1 \otimes X_2 =  
+Y(r_1,r_2) = X_1 \otimes X_2 =
 \begin{pmatrix}
 1 & 2 r_1 \\
 0 & 1
 \end{pmatrix}
-\otimes 
+\otimes
 \begin{pmatrix}
 1 & 2r_2 \\
 0 & 1
@@ -109,7 +109,7 @@ A
 \text{ for } i=1,\ldots,4\ \langle\psi_i|\psi_i\rangle=1 \text{ and } |\psi_i\rangle\in\mathbb{C}^2
 \}
 $$
-of the matrix 
+of the matrix
 $
 A ={\rm diag} \bigl(
 e^{\frac{i \pi }{4}},i,i,e^{\frac{3 i \pi }{4}},-1,e^{-\frac{3 i \pi }{4}},
