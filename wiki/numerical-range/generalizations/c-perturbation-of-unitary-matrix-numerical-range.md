@@ -7,7 +7,7 @@ permalink: /numerical-range/generalizations/c-perturbation-of-unitary-matrix-num
 ---
 # Perturbation of unitary matrix numerical range
 
-In our setup we consider the space $\mathrm{L}(\mathbb{C}^d)$. Imagine
+n our setup we consider the space $\mathrm{L}(\mathbb{C}^d)$. Imagine
 that the matrices are points in space $\mathrm{L}(\mathbb{C}^d)$ and the
 distance between them is bounded by small constant $0 \< c \ll 1$. We
 will take two unitary matrices - matrix $U \in \mathrm{U}(\mathbb{C}^d)$
@@ -45,34 +45,48 @@ formed by eigenvectors corresponding to eigenvalue $\lambda$ of a such
 matrix $M$. Let $(t), (t)  $for$t 0$. We will write$(t)  (t)$for
 relatively small$t 0$, whenever $\lambda(0)=\beta(0)$ and $(0)=(0)$.
 
-## Theorem
+## Theorem<sup>{% cite kukulski2020 %}</sup>
 
 Let $U \in \mathrm{U}(\mathbb{C}^d)$ be a unitary matrix with spectral
-decomposition  Assume that the eigenvalue $\lambda \in \lambda(U)$ is
-such that $r(\lambda) = k$. Let us define a matrix $V(t)$ given by  Let
-$\lambda(t):=\lambda(UV(t))$ and let every $\_j(t)  (t)$corresponds to
-eigenvector$ $. Assume that $\lambda_{1}(t), \ldots, \lambda_{k}(t)$ are
+decomposition 
+
+\begin{aligned}
+    U = \sum_{j=1}^d \lambda_j \ket{\lambda_j}\bra{\lambda_j}
+\end{aligned}
+
+Assume that the eigenvalue $\lambda \in \lambda(U)$ is such that $r(\lambda) = k$. 
+Let us define a matrix $V(t)$ given by 
+
+\begin{aligned}
+    V(t) = \exp(itD_+) = \sum_{i=1}^d e^{ip_it} \ket{i}\bra{i} \in \mathcal{DU}(\mathbb{C}^d),
+    \quad t \ge 0.
+\end{aligned}
+
+Let $\lambda(t):=\lambda(UV(t))$ and let every $\lambda_j(t) \in \lambda(t)$ corresponds to
+eigenvector $\ket{x_j(t)}$. Assume that $\lambda_{1}(t), \ldots, \lambda_{k}(t)$ are
 such eigenvalues that $\lambda_{j}(t) \to \lambda$, as $t \to 0$. Then:
 
-1\. If $*{ S*^U} \_{i=1}^d\\ p\_i ||^2=0$, then $\lambda$ is an
+1. If $*{ S*^U} \_{i=1}^d\\ p\_i ||^2=0$, then $\lambda$ is an
 eigenvalue of $UV(t)$;
 
-2\. If $\|\\{p_i: p_i\>0\\}\|=l\<k$, then $\lambda$ is an eigenvalue of
+2. If $\|\\{p_i: p_i\>0\\}\|=l\<k$, then $\lambda$ is an eigenvalue of
 $UV(t)$ and $r(\lambda) \ge k-l$;
 
-3\. Each eigenvalue of product $UV(t)$ moves counterclockwise or stays
+3. Each eigenvalue of product $UV(t)$ moves counterclockwise or stays
 in the initial position as parameter $t$ increases;
 
-4\. If $k=1$, then  for small $t  0$;
+4. If $k=1$, then  for small $t  0$;
 
-5\. Let $Q:=I_{U,\lambda}^\dagger D_+ I_{U,\lambda}$ and $\lambda_1(Q)
+5. Let $Q:=I_{U,\lambda}^\dagger D_+ I_{U,\lambda}$ and $\lambda_1(Q)
 \le \lambda_2(Q) \le \ldots \le \lambda_k(Q)$. Then we have  for small
 $t \geq 0$ and eigenvector $\ket{ x_j}$ corresponding to $\lambda_j \in
 \lambda(U)$ is given by  where $ S^{Q}\_{\_j(Q)}$;
 
-6\. For each $j=1,\ldots,d$ we have  Moreover, 
+6. For each $j=1,\ldots,d$ we have  
 
-Proof of this therorem you can see in {% cite kukulski2020 %}.
+
+Moreover, 
+
 
 Intuitively speaking, this theorem gives us equations which one can use
 to predict behaviour of $W(UV(t))$. Observe the postulate $(6)$ fully
