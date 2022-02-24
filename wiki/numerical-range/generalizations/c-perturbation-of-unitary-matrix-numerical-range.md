@@ -9,33 +9,34 @@ permalink: /numerical-range/generalizations/c-perturbation-of-unitary-matrix-num
 
 Let us consider two unitary matrices - matrix $U \in \mathrm{U}(\mathbb{C}^d)$
 and its perturbation $V \in \mathrm{U}(\mathbb{C}^d)$, such that $\\\|U-V\\\| \le \epsilon$, for some $\epsilon > 0$.
-To connect those unitary matrices, we define geodesic curve $U(t) \in \mathrm{U}(\mathbb{C}^d)$
+To connect those unitary matrices, we define a geodesic curve $U(t) \in \mathrm{U}(\mathbb{C}^d)$
 for any $t \in \[0,1\]$ with boundary conditions $U(0) \coloneqq U$ and $U(1) \coloneqq V$. 
-This smooth path is explicitly given as<sup>{% cite antezana2014optimal %}</sup> 
+This smooth path is explicitly given as {% cite antezana2014optimal %} 
 
 \begin{equation}
 t \mapsto U \exp \left( t \text{Log} \left( U^\dagger V \right) \right). 
 \end{equation}
 
-We will study how the numerical range $W(U(t))$ changes depending on $t$. As shown in 
+We will study how the [numerical range]({{ "/numerical-range/" | relative_url }}) $W(U(t))$ changes depending on $t$. As shown in 
 {% cite kukulski2020 %} we may focus on equivalent, but simplified problem of determining the behavior
-of the numerical range of $U(t) = U \exp \left( \ii t D_+ \right)$, where $D_+$ is diagonal, positive, 
-semi-definite matrix, such that $\tr (D_+) = 1$.
+of the numerical range of $U(t) = U \exp \left( \ii t D_+ \right)$, where $D_+ = \sum_{i = 1}^d p_i \proj{i}$ is diagonal, positive, 
+semi-definite matrix, such that $\sum_{i = 1}^d p_i = 1$.
 
-## Theorem<sup>{% cite kukulski2020 %}</sup>
-
-Let $r(\lambda)$ be an algebraic multiplicity of eigenvalue $\lambda$, define by $I_{U, \lambda}$ the isometry which
-columns are formed by eigenvectors corresponding to eigenvalue $\lambda$ of a matrix $U$ and define
+For a given matrix $M$, let us define a multiset of eigenvalues of the matrix $M$ denoted by $\lambda(M)$. Let 
+$r(\lambda)$ be an algebraic multiplicity of eigenvalue $\lambda \in \lambda(M)$, define by $I_{M, \lambda}$ the isometry which
+columns are formed by eigenvectors corresponding to eigenvalue $\lambda$ and define
 
 \begin{equation}
-S_{\lambda}^{U} = \left\\{ \ket{x} \in \mathbb{C}^d: (\lambda \1_d - U) \ket{x} = 0, \,\, \\\| x \\\|_2 = 1 \right\\}.
+S_{\lambda}^{M} = \left\\{ \ket{x} \in \mathbb{C}^d: (\lambda \1_d - M) \ket{x} = 0, \,\, \\\| x \\\|_2 = 1 \right\\}.
 \end{equation}
+
+## Theorem {% cite kukulski2020 %}
 
 Let $U \in \mathrm{U}(\mathbb{C}^d)$ be a unitary matrix with spectral
 decomposition 
 
 \begin{aligned}
-    U = \sum_{j=1}^d \lambda_j \proj{\lambda_j}
+    U = \sum_{j=1}^d \lambda_j \proj{\lambda_j}.
 \end{aligned}
 
 Assume that the eigenvalue $\lambda \in \lambda(U)$ is such that $r(\lambda) = k$. Let us define a matrix 
@@ -53,7 +54,7 @@ such eigenvalues that $\lambda_{j}(t) \to \lambda$, as $t \to 0$. Then:
 1. If $ \min\\{ \sum_{i=1}^d p_i |\braket{i}{x}|^2: \ket{x} \in S^{U}_{\lambda} \\}=0$, then $\lambda$ is an
 eigenvalue of $UV(t)$.
 
-2. If $\| \{p_i: p_i >0 \}\|=l\<k$, then $\lambda$ is an eigenvalue of
+2. If $\| \\{ p_i: p_i >0 \\} \|=l\<k$, then $\lambda$ is an eigenvalue of
 $UV(t)$ and $r(\lambda) \ge k-l$.
 
 3. Each eigenvalue of product $UV(t)$ moves counterclockwise or stays
@@ -89,7 +90,7 @@ Moreover,
 \end{equation}
 
 Intuitively speaking, this theorem gives us hints, which one can use
-to predict a behaviour of $W(UV(t))$. Observe that, the postulate $6.$ fully
+to predict a behavior of $W(UV(t))$. Observe that, the postulate $6.$ fully
 determines the movenment of the spectrum. However, this is a theoretical
 statement and in practice, determining the function $t \mapsto \ket{x_j(t)}$ is a numerically
 complex task. The postulates from $1.$ to $5.$ play a key role in numerical
@@ -104,7 +105,7 @@ that the postulates $4., 5.$ give us only an approximation of the
 velocities, so despite being useful in numerical calculations, these
 expressions are valid only in the neighbourhood of $t=0$. 
 
-## Illustration of above theorem
+## Illustration of the above theorem
 
 For each eigenvalue $\lambda(t)$ of matrix $UV(t)$ we mark its
 instantaneous velocity given by formula $\sum_{i=1}^d p_i | \braket{i}{x(t)}|^2 $,
@@ -155,7 +156,7 @@ Matrix $U$ with eigenvalues $(1,e^{\ii \pi /6}, \ii , \ii , \ii , -1, -1)$.
 We act on two subspaces with probability $p_1 = 1/3$ and $p\_2 = 2/3$. In this case the
 eigenvalue $\ii$ is three fold degenerated, so it stays in the initial position.
 
-More examples you can find in {% cite kukulski2020 %}.
+More examples can be found in {% cite kukulski2020 %}.
 
 # References
 
