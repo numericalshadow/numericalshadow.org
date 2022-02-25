@@ -16,8 +16,8 @@ defined as
 $$W^{\mathrm{ent}}(A)=\\\{z \in \mathbb{C}:\\ z= \bra{\psi}A\ket{\psi},\\
 \ket{\psi}\in\mathbb{C}^{d_1\times d_2}_\mathrm{ent} \\\}.$$
 
-$$\mathbb{C}^{d_1 \times d_2}_\mathrm{ent}= \\\{ \ket{\psi} \coloneqq 
-(U_1 \otimes U_2) \sum_{i=1}{d_\mathrm{min}} \frac{1}{\sqrt{d_\mathrm{min}}}
+$$\mathbb{C}^{d_1 \times d_2}_\mathrm{ent}= \\\{ \ket{\psi} \coloneqq
+(U_1 \otimes U_2) \sum_{i=1}^{d_\mathrm{min}} \frac{1}{\sqrt{d_\mathrm{min}}}
 \ket{\psi_i^1} \otimes \ket{\psi_i^2} \\\}$$,
 where
 
