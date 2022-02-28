@@ -15,7 +15,7 @@ parent: Software
     Cowen and Elad
     Harel](http://www.math.iupui.edu/~ccowen/Downloads/33NumRange.html)
   - [Field of values and numerical abscissa by Nick Trefethen,
-    November](http://www2.maths.ox.ac.uk/chebfun/examples/linalg/html/FieldOfValues.shtml)
+    November](https://www.mathworks.com/matlabcentral/mlc-downloads/downloads/submissions/23972/versions/22/previews/chebfun/examples/linalg/html/FieldOfValues.html)
 
 ### Mathematica
 
