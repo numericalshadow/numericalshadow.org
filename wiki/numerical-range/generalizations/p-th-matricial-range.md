@@ -17,9 +17,13 @@ Let $M_n$ will be the set of all matrices of dimension $n$ and by
 $\mathrm{U}_n$ it will be denoted the set of all unitary matrices of
 dimension $n$. The $p$-th numerical range (also known as matricial
 numerical range {% cite chuan1985unitary %}) of the matrix $A \in M_n$ is
-defined as {% cite li1991k %}. 
+defined as {% cite li1991k %}
 
-We can observe that $W(n:A) = \\{ U^A U: X  \_n \\}$and$W(1:A) = W(A)$ as
+$$
+W(p:A) \coloneqq \left\{ X^\dagger A X: C \in \mathbb{C}^{n \times p}, X^\dagger X = \1_p \right\}.
+$$
+
+We can observe that $W(n:A) = \\{ U^A U: X  \_n \\}$ and $W(1:A) = W(A)$ as
 [standard numerical range]({{ "/numerical-range" | relative_url }}). In
 particular, many generalizations of standard numerical range $W(A)$ are actually
 the ranges of certain scalar-valued functions on $W(p:A)$ (see {% cite
@@ -56,9 +60,6 @@ matrix. Opposite implication is obvious;
 
 \- All $X \in W(p:A)$ are normal if and only if $A$ is essentially
 Hermitian.
-
-The example of application of $p$-th matricial numerical range we can
-see (for example) {% cite kribs2019higher %}.
 
 # References
 
