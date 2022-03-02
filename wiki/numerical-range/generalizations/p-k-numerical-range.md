@@ -21,24 +21,27 @@ numerical range, let $M_n$ will be the set of all matrices of dimension
 $n$ and by $\mathrm{U}\left(\mathbb{C}^{k},\mathbb{C}^{l}\right)$ it
 will be denoted the set of all isometries of dimension $k \times l$. The
 $(p,k)$ numerical range of the matrix $A \in M_n$ is defined as
-{% cite choi2009multiplicative %} 
+{% cite choi2009multiplicative %}
 
+$$
+\Lambda_{p,k}(A) \coloneqq \left\{ B \in M_p: U^\dagger A U = B \otimes \1_k \text{ for some } U \in \mathrm{U}(\mathbb{C}^{pk}, \mathbb{C}^n)  \right\}.
+$$
 ## Properties
 
-We have the following properties of $\Lambda_{p,k}(A)$ for $A  M\_n$:
+We have the following properties of $\Lambda_{p,k}(A)$ for $A \in M_n$:
 
-  - $\_{p,k}(A + *n) =  *{p,k}(A) + \_p$for$,  $.
+  - $\Lambda_{p,k}(\alpha A + \beta \1_n)= \alpha \Lambda\_{p,k} (A) +\beta \1_p \text{ for }\alpha\beta       \in\mathbb{C} $.
 
   - $\Lambda_{p,k}(U^\dagger A U) \subset \Lambda_{p,k}(A)$ for any
-    isometry $U ( ^m, ^n )$.
+    isometry $U (\mathbb{C}^m, \mathbb{C}^n )$.
 
   - $\Lambda_{p,k}(U^\dagger A U) = \Lambda_{p,k}(A)$ for any unitary
     matrix $U \in \mathrm{U}\left( \mathbb{C}^n \right)$.
 
-  - $B \in \Lambda_{p,k}(A)$ if and only if $U^B U  \_{p,k}(A)$for any$U
-    ( ^p )$.
+  - $B \in \Lambda_{p,k}(A)$ if and only if $U^\dagger B U \in \Lambda_{p,k}(A)$ for any $U
+  \in \mathrm{U}( \mathbb{C}^p )$.
 
-  - If $B \in \Lambda_{p,k}(A)$, then $\_{n-pk+1}(A) \_1(B) \_k(A)$.
+  - If $B \in \Lambda_{p,k}(A)$, then $\Lambda_{n-pk+1}(A)  \subset \Lambda_1(B) \subset \Lambda_k(A)$.
 
 We can observe that the $(p,k)$ numerical range of some matrux $A$ is
 the generalization of higher rank numerical range and $p$-th matricial
@@ -67,21 +70,25 @@ when:
     \not= \emptyset$ for all $j=1,\ldots,p$.
 
   - There exists $U \in \mathrm{U}\left(\mathbb{C}^n\right)$ such that
-    $U^\dagger A U=A_1 \oplus \ldots \oplus A_p$, where $ A\_j 3k-2$for
-    all$j=1,,p$.
+    $U^\dagger A U=A_1 \oplus \ldots \oplus A_p$, where $ A_j \ge 3k-2$ for
+    all $j=1,,p$.
 
   - Matrix $A$ is normal and $n \geq (3k-2)p$.
 
 ## Theorem for Hermitian matrices
 
-Let $A$ will be Hermitian matrix of dimenasion $n$ and let $pk n$. The
-set$\_{p,k}(A) = $ if and only if $\lambda_{jk}(A) \geq
+Let $A$ will be Hermitian matrix of dimenasion $n$ and let $pk \le n$. The
+set $\Lambda_{p,k}(A)  \emptyset $ if and only if $\lambda_{jk}(A) \geq
 \lambda_{n-(p-j+1)k+1}(A) \quad \text{for } j=1,\ldots,p.$
 
-Furthermore, for a given matrix $B \in M_n$ we can obtain $B 
-*{p,k}(A)$if and only if:$$*{n-(p-j+1)k+1}(A) *j(B) *{jk}(A)  j=1,,
-p,\$\$$where$\_{k}(X)$is$k$-th eigenvalue of$X\$\$.
+Furthermore, for a given matrix $B \in M_n$ we can obtain
+$B \in \Lambda_{p,k}(A)$ if and only if:
 
+$$
+\lambda_{n-(p-j+1)k+1}(A) \le \lambda_j(B) \le \lambda_{jk}(A)
+$$
+
+for $j=1, \ldots,p$, where $\lambda_k(X)$ is $k$-th eigenvalue of $X$.
 ### Convexity of $(p,k)$ numerical range for Hermitian matrices
 
 In the case when $n \geq (p+1)k$ the convexity of the set
@@ -93,7 +100,7 @@ Proofs of above theorem we can find in {% cite li2012generalized %}.
 ## Related open problems
 
 1\. Determine all possible $k \times k$ principal submatrices of
-$U^\dagger A U$ for $U ( ^n )$.
+$U^\dagger A U$ for $U ( \mathbb{C}^n )$.
 
 2\. Determine the optimal $n$ so that $\Lambda_{p,k}(A)$ is non-empty
 for any $A \in M_n$.
