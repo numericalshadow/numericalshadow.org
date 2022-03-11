@@ -21,7 +21,7 @@ units satisfying:
 
 
 For a given $q \in \mathbb{H}$, we define the real
-part, $re(q):= q\_{0}$  and the imaginary part, $im(q)\coloneqq q\_{1}i+q\_{2}j+q\_{3}k$. The conjugate and the modulus of $q$ respectively given by
+part, $\Re (q):= q\_{0}$  and the imaginary part, $\Im (q)\coloneqq q\_{1}i+q\_{2}j+q\_{3}k$. The conjugate and the modulus of $q$ respectively given by
 \begin{equation}
 \overline{q} = q_0 - (q_1 i + q_2 j + q_3 k)
 \end{equation}
@@ -166,7 +166,7 @@ Let $A \in M_{n}(\mathbb{H})$. Then the following are equivalent
 \- For every $X \in S_{\mathbb{H}^{n}}$, there exists a $Y \in S\_{\mathbb{H}^{n}}$
 such that
 $$
-2 |  \text{im} ( \braket{Y}{AY}_\mathbb{H}  ) | = |\braket{X}{AX}_\mathbb{H} i - i \overline{\braket{X}{AX}_{\mathbb{H}}}  |.
+2 |  \Im ( \braket{Y}{AY}_\mathbb{H}  ) | = |\braket{X}{AX}_\mathbb{H} i - i \overline{\braket{X}{AX}_{\mathbb{H}}}  |.
 $$
 
 ### Theorem
@@ -181,7 +181,3 @@ can see in {% cite carvalho2019star %}.
 # References
 
 {% bibliography --cited %}
-
-
-
-
