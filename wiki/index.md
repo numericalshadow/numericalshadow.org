@@ -11,7 +11,7 @@ permalink: /
 <img src="assets/logo.png" />
 </p>
 
-Example of a [product numericalshadow]({{ "/numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow" | relative_url }})
+Example of a [product numerical shadow]({{ "/numerical-shadow/generalizations/restricted-numerical-shadow/product-numerical-shadow" | relative_url }})
 [restricted to real states]({{ "/numerical-shadow/generalizations/restricted-numerical-shadow/real-numerical-shadow" | relative_url }})
 
 of matrix
