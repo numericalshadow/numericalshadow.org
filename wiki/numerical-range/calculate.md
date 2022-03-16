@@ -5,7 +5,7 @@ nav_order: 4
 parent: Numerical range
 permalink: /numerical-range/calculate/
 ---
-  <script src="https://unpkg.com/mathjs@10.1.1/lib/browser/math.js"></script>
+  <script src="https://unpkg.com/mathjs@10.4.0/lib/browser/math.js"></script>
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 
 <h1>
@@ -37,7 +37,7 @@ console.log(math.eigs([[1, 2], [3, 4]]));
 console.log(math.eigs([[3, -2], [4, -1]]));
 const A = [[3, -2], [math.complex(4, 2), -1]];
 const Ah = math.ctranspose(A);
-console.log(math.eigs(A + Ah));
+console.log(math.eigs(math.add(A, Ah)));
 console.log(math.eigs(A));
 console.log(math.eigs(Ah));
 </script>
