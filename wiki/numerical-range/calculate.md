@@ -23,7 +23,7 @@ custom_js: true
   <div class="wejscie" id="tInput">
       Text format: [[a, b, c], [d, e, f], [g, h, i]]<br>
       <textarea id="we2" cols="50">[[1 + 5i, 2, 3], [2, 4 - i, 0], [3, 0, 1 - 2i]]</textarea><br>
-      <input type="button" value="przelicz" id="przelicz2" onclick="onPrzelicz2()"/>
+      <input type="button" value="Calculate" id="przelicz2" onclick="onPrzelicz2()"/>
   </div>
   <div class="wejscie" id="mInput">
       Inpu matrix:<br>
