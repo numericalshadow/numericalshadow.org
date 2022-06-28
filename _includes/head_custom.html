@@ -36,3 +36,8 @@ MathJax = {
   }
 };
 </script>
+{% if page.custom_js %}
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.4.0/math.min.js"></script> 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.11.0/plotly.min.js"></script>
+<script type="text/javascript" src='{{ "/assets/calculate/numRange.js" | relative_url }}'></script>
+{% endif %}
