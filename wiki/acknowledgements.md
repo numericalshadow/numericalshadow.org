@@ -19,7 +19,7 @@ permalink: /acknowledgements/
 ## Support
 
   - Supported by [Centre for Theoretical Physics, Polish Academy of
-    Sciences](http://www.cft.edu.pl/en/).
+    Sciences](http://www.cft.edu.pl).
 
   - Hosted and maitained by [Institute of Theoretical and Applied
     Informatics, Polish Academy of Sciences](http://www.iitis.pl/en/).

@@ -78,7 +78,7 @@ when:
 ## Theorem for Hermitian matrices
 
 Let $A$ will be Hermitian matrix of dimenasion $n$ and let $pk \le n$. The
-set $\Lambda_{p,k}(A)  \emptyset $ if and only if $\lambda_{jk}(A) \geq
+set $\Lambda_{p,k}(A)  \neq \emptyset $ if and only if $\lambda_{jk}(A) \geq
 \lambda_{n-(p-j+1)k+1}(A) \quad \text{for } j=1,\ldots,p.$
 
 Furthermore, for a given matrix $B \in M_n$ we can obtain

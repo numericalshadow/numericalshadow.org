@@ -42,5 +42,7 @@ permalink: /numerical-range/generalizations/
     `B`](/numerical-range/generalizations/numerical-range-of-a-with-respect-to-b)
   - [Maximal numerical
     range](/numerical-range/generalizations/maximal-numerical-range)
+  - [Joint numerical
+    range](/numerical-range/generalizations/joint-numerical-range)
   - [Essential numerical
     range](/numerical-range/generalizations/essential-numerical-range)

@@ -83,7 +83,7 @@ we denote all $p$-Schatten-class operators defined by
 \mathcal{B}^p(\mathcal{X}, \mathcal{Y}) \coloneqq \\{  C \in \mathcal{K}(\mathcal{X}, \mathcal{Y}) | \sum_{n=1}^\infty s_n(C) ^p < \infty \\}
 \end{equation}
 
-for $p \[1,\infty )$ whereas the Schatten-$p$-norm of matrix $A$
+for $p \in \[1,\infty )$ whereas the Schatten-$p$-norm of matrix $A$
 $$
 \| A \|_p \coloneqq \left( \sum_{n=1}^\infty s_n(A)^p \right)^{1/p},
 $$
