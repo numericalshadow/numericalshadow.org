@@ -14,9 +14,9 @@ range* (also called *field of values* {% cite murnaghan1932field %}) as a
 subset of the complex plane:
 
 $$
-W(A)=\\{ z \in \mathbb{C}: z=\bra{\psi}
+W(A)=\{ z \in \mathbb{C}: z=\bra{\psi}
 A\ket{\psi}, \\ \ket{\psi} \in {\mathbb{C}}^d, \\
-\braket{\psi}{\psi}=1\\}.
+\braket{\psi}{\psi}=1 \}.
 $$
 
 Following a common convention we denote here
