@@ -24,9 +24,9 @@ the essential numerical range of $T$ by $W_e(T ) = \\{\lambda \in
 
 ### Properties
 
-For any $z \in \mathbb{C}$ and let $\sigma_e(T) = \\{ \lambda \in
+For any $z \in \mathbb{C}$ and $\sigma_e(T) = \\{ \lambda \in
 \mathrm{C} : \exists (x_n)_{n \in \mathbb{N}} \subset \mathcal{D}(T )
-\\,\\,\\, \text{with} \\,\\,\\, \|\|xn\|\| = 1, (x_n) \rightarrow 0,
+\\,\\,\\, \text{with} \\,\\,\\, \|\|x\_n\|\| = 1, (x_n) \rightarrow 0,
 \|\|(T- \lambda)x_n \|\| \rightarrow 0 \\}$ then we have
 {% cite bogli2020essential %}
 

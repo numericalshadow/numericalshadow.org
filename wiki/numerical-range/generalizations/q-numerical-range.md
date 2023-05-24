@@ -28,7 +28,7 @@ Properties of $W_q(A)$ of a matrix $A$ of dimension $d \times d$
 ## Example
 
 The numerical aproximation of $W_{13/14}(A)$, where $A =
-\begin{pmatrix} 0&1&1/2\ 0&0&1\ 0&0&0 \end{pmatrix}.$
+\begin{pmatrix} 0&1&1/2\\\ 0&0&1\\\ 0&0&0 \end{pmatrix}.$
 
 ![]({{ "/assets/numerical-range/qnr1.png" | relative_url }})
 

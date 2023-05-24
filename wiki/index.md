@@ -39,12 +39,12 @@ is forming an image of $\mathbb{R}P^1 \times \mathbb{R}P^1$.
 
 ## Page created by
 * [Łukasz Pawela](https://www.iitis.pl/en/person/lpawela)
-* [Piotr Gawron](https://pgawron.github.io)
+* [Piotr Gawron](https://piotrgawron.eu/)
 * [Jarosław Adam Miszczak](https://www.iitis.pl/en/person/jmiszczak)
 * [Zbigniew Puchała](https://www.iitis.pl/en/person/zpuchala)
 * [Karol Życzkowski](http://chaos.if.uj.edu.pl/~karol/)
 * [Paulina Lewandowska](https://www.iitis.pl/en/node/2654)
-* [Ryszard Kukulski](https://iitis.pl/en/node/2619)
+* [Ryszard Kukulski](https://scholar.google.pl/citations?user=Lict0ugAAAAJ&hl=en)
 
 
 ## Support

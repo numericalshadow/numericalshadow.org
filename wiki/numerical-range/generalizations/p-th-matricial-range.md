@@ -35,7 +35,7 @@ properties of $W(p:A)$.
 Let $A \in M_n$ will be any matrix of dimension $n$, then in general
 case the set $W(p:A)$ is non-convex {% cite thompson1987research %}. The
 following theorems (see {% cite li1991k %}) give us the conditions to
-matrix $A$ and its eigenvalues so as to the set $W(p:A) will be convex.
+matrix $A$ and its eigenvalues so as to the set $W(p:A)$ will be convex.
 
 ### Theorem
 
