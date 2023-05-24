@@ -9,8 +9,8 @@ permalink: /numerical-range/generalizations/numerical-range-of-a-with-respect-to
 
 ### Example 1
 
-Diagonal matrix $A=\begin{pmatrix} 1 & 0 & 0 & 0\ 0 & 1+2\ii & 0 & 0\ 0
-& 0 & 3\ii & 0\ 0 & 0 & 0 & 0 \end{pmatrix}$ with respect to matrix $B
+Diagonal matrix $A=\begin{pmatrix} 1 & 0 & 0 & 0\\\ 0 & 1+2\ii & 0 & 0\\\ 0
+& 0 & 3\ii & 0\\\ 0 & 0 & 0 & 0 \end{pmatrix}$ with respect to matrix $B
 =\1_4$.
 
 #### Trace norm
@@ -23,15 +23,17 @@ Diagonal matrix $A=\begin{pmatrix} 1 & 0 & 0 & 0\ 0 & 1+2\ii & 0 & 0\ 0
 
 #### Infinity norm
 
-![]({{ "/assets/numerical-range/generalizations/nr_diagonal_id_inf.gif" | relative_url }}) Under this
+![]({{ "/assets/numerical-range/generalizations/nr_diagonal_id_inf.gif" | relative_url }}) 
+
+Under this
 assumption, the numerical range $w_{\|\|\cdot\|\|_\infty}(A;\1_4)=
 W(A)$.
 
 ### Example 2
 
-Matrix $A=\begin{pmatrix} 6+\ii & 0.4 & 0 & -0.1\ 0.1 & 1-3\ii & -0.3\ii
-& 0\ 0 & 0 & 0.5 & 0 \end{pmatrix}$ with respect to matrix
-$B=\begin{pmatrix} 1.2 & 0 & 0 & 0\ 0 & \ii & 0 & 0\ 0 & 0 & -1 & 0
+Matrix $A=\begin{pmatrix} 6+\ii & 0.4 & 0 & -0.1\\\ 0.1 & 1-3\ii & -0.3\ii
+& 0\\\ 0 & 0 & 0.5 & 0 \end{pmatrix}$ with respect to matrix
+$B=\begin{pmatrix} 1.2 & 0 & 0 & 0\\\ 0 & \ii & 0 & 0\\\ 0 & 0 & -1 & 0
 \end{pmatrix}$
 
 #### Trace norm

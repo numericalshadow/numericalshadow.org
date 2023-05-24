@@ -17,10 +17,14 @@ and [numerical range of rectangular
 matrices]({{ "/numerical-range/generalizations/numerical-range-of-a-with-respect-to-b" | relative_url }}).
 
 Let $M,N$ be positive integers, that satisfy $M \geq N$. For every $k
-\in \\{1,\ldots,N\\}$ define the following set: $\mathcal{X}= \left\\{
+\in \\{1,\ldots,N\\}$ define the following set: 
+
+$$
+\mathcal{X} = \left\\{
 (X,Y): X \mbox{ is } N \times (N-k+1) \mbox{ isometry matrix },
 Y=\left\[ \begin{array}{c\|c} X & 0\ \hline 0 & U \end{array} \right\],U
-\in \mathcal{U}_{M-N} \right\\}.$
+\in \mathcal{U}_{M-N} \right\\}.
+$$
 
 ## Definition
 
@@ -60,20 +64,20 @@ induced matrix norm and for every unit vector $z$ and for all $(X,Y) \in
 
 ## Example 1
 
-Diagonal matrix $A=\begin{pmatrix} 1 & 0 & 0 & 0\ 0 & 1+2\ii & 0 & 0\ 0
-& 0 & 3\ii & 0\ 0 & 0 & 0 & 0 \end{pmatrix}$ with respect to matrix $B
-=\1_4$ with $\|\|\cdot\|\| = \|\|\cdot\|\|_\infty$. Then,
-$\Lambda_{k,\|\|\cdot\|\|}(A;B) = \Lambda_k(A)$ is $k$--numerical range
+Diagonal matrix $A=\begin{pmatrix} 1 & 0 & 0 & 0\\\ 0 & 1+2\ii & 0 & 0\\\ 0
+& 0 & 3\ii & 0\\\ 0 & 0 & 0 & 0 \end{pmatrix}$ with respect to matrix $B
+=\1\_{4}$ with $\|\| \\cdot \|\| = \|\| \cdot \|\|_\infty$. Then, 
+$ \Lambda\_{k,\|\|\cdot\|\|}(A;B) = \Lambda\_k(A)$ is $k$--numerical range
 of $A$. In this case, $k=2$.
 
 ![]({{ "/assets/numerical-range/generalizations/2k_nr_diagonal.png" | relative_url }})
 
 ## Example 2
 
-Matrix $A=\begin{pmatrix} 6+\ii & 0.4 & 0 & -0.1\ 0.1 & 1-3\ii & -0.3\ii
-& 0\ 0 & 0 & 0.5 & 0 \end{pmatrix}$ with respect to matrix
-$B=\begin{pmatrix} 1.2 & 0 & 0 & 0\ 0 & \ii & 0 & 0\ 0 & 0 & -1 & 0
-\end{pmatrix}$ with $|||| = ||||\_$and$k=1$. Then,
+Matrix $A=\begin{pmatrix} 6+\ii & 0.4 & 0 & -0.1\\\ 0.1 & 1-3\ii & -0.3\ii
+& 0\\\ 0 & 0 & 0.5 & 0 \end{pmatrix}$ with respect to matrix
+$B=\begin{pmatrix} 1.2 & 0 & 0 & 0\\\ 0 & \ii & 0 & 0\\\ 0 & 0 & -1 & 0
+\end{pmatrix}$ with $\|\| \cdot \|\| = \|\| \cdot \|\|\_2$ and $k=1$. Then,
 $\Lambda_{1,\|\|\cdot\|\|}(A;B) = w_{\\\| \cdot \\\|}(A; B)$.
 ![]({{ "/assets/numerical-range/generalizations/1k_nr_rectangular.png" | relative_url }})
 
